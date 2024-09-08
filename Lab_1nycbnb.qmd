@@ -1,0 +1,32 @@
+---
+title: "Data 607 Lab 1"
+format: html
+editor: visual
+author: Darwhin Gomez
+date: "`r Sys.Date()`"
+output: 
+  html_document: 
+    keep_md: true
+---
+
+```{r}library(ggridges)}
+
+```
+
+```{r}library(tidyverse)}
+
+```
+
+Loading data
+
+```{r}nycbnb = read_csv("nycbnb.csv")}
+
+```
+
+Checking Data
+
+```{r}
+nycbnb
+```
+
+## Problem 1
