@@ -1,0 +1,272 @@
+---
+title: "Lab 4: Data Transformations"
+author: "Darwhin Gomez"
+
+format: html
+---
+
+```{=html}
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+```
+```{=html}
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+```
+## Overview: Large Technology Stocks
+
+For this assignment we practice data transformation using a dataset of the daily prices and daily trading volumes of a group of large technology stocks that trade on US stock exchanges. [Click here to download stocks.csv](https://github.com/georgehagstrom/DATA607/tree/main/website/assignments/labs/labData/stocks.csv), which contains data going back to 2000. The dataset contains several variables, including:
+
+-   `symbol`: which is the ticker symbol for the stock
+-   `date`: which is the trading date
+-   `open`, `high`, `low`, and `close`, which are the price at the start of trading, the high price during the day, the low price during the day, and the stock price at the close of trading (unit is USD)
+-   `adjusted`: which is the stock price at close adjusted for the financial effects of special events (such as dividends). Unit is USD
+-   `volume`: which is the number of shares which traded during a given trading day.
+
+```{r}
+#| warning: false
+library(tidyverse)
+library(TTR)
+library(kableExtra)
+
+stocks = read_csv("stocks.csv")
+
+stocks |> head(10) |> kable()
+```
+
+All of the the stock prices and the trading volume have been adjusted for stock splits, so that the data provide a continuous record of how prices and trading volume changed.
+
+There are several important functions and packages that you will need to use to complete this exercise.
+
+-   We will make a lot of use of window functions in `dplyr`, which are very helpful for making transformations (including `lead`, `lag`, `percent_rank`). The [`dplyr` vignettes and articles are incredibly useful for learning about all the different functions available](https://dplyr.tidyverse.org/articles/window-functions.html)
+-   We will use the `TTR` package (which is part of the `tidyquant` family of packages, [see here](https://cran.r-project.org/web/packages/tidyquant/vignettes/TQ02-quant-integrations-in-tidyquant.html)). The main function we will use is called `runMean`. An alternative package that is also very nice but not part of the `tidyverse` is [`RcppRoll`](https://CRAN.R-project.org/package=RcppRoll)
+-   If you aren't very comfortable with logarithms, you should read more about them. They are one of the most important mathematical functions for data science. We aren't using their mathematical properties much this week but they will be important throughout your data science journey. [Khan Academy has a decent video](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:log-intro/v/logarithms), and [this article in the journal nature](https://www.nature.com/articles/news.2008.866) has some more context.
+-   We will calculate some correlation coefficients, using the `cor` function from base R (`?cor` to see how it is used). There is also a `tidyverse` package called `corrr` that is useful for calculating correlations on data frames, but we won't use it for this lab.
+-   The motivation for today's assignment came from some news articles a few years ago about how big tech stocks collectively had a miniature meltdown after powering the stock market for several consecutive years, see [this article at Morningstar](https://www.morningstar.com/markets/5-charts-big-tech-stocks-collapse)
+-   The [wikipedia page on Market Impact](https://en.wikipedia.org/wiki/Market_impact) has some references to Kyle's $\lambda$, which we will calculate this week.
+
+**Problem 1:** The price of a stock on a given day only conveys information in relation to the stock price on other days. One useful measure is the daily `return` of the stock, which we will define as the ratio of the adjusted closing price on the current day of trading to the adjusted closing price on the previous day of trading. Read the following article on *window functions* in `dplyr`: [window functions in dplyr](https://dplyr.tidyverse.org/articles/window-functions.html).
+
+-   Find a function there that will help you calculate the daily return and use it along with mutate to add a `return` column to the data frame containing the daily return.
+
+Hint: make sure to use group_by(symbol), otherwise your calculation might transpose prices from a different stock at the beginning of each time series.\
+***\
+\
+I'm using the lag() window function which takes a previous value in the column.***
+
+Differences between the adjusted return and the return measured on the close price should indicate special corporate events such as dividends.
+
+-   Calculate the un-adjusted return using the same technique you used to calculate the return, but replacing the `adjusted` variable with the `close` variable, and find the datapoint in the dataset where the return exceeded the unadjusted return by the greatest margin. (Hint to check you have done it right: it happened in November 2004). The reason that the `close` price and the `adjusted` price differ is because stock prices typically decrease when a dividend is paid (to account for the cash paid out). The `adjusted` value has been modified from the beginning of the initial data record to increase `adjusted` to compensate for dividends. A dividend is just a payment that a company makes periodically to those who hold stock.
+
+```{r problem 1}
+
+stocks_ratio <- stocks |>
+  group_by(symbol) |>
+  mutate(daily_return = close/ lag(close),
+         daily_adjusted_return = adjusted / lag(adjusted),
+  adjdiff_return =  daily_return - daily_adjusted_return)|>
+  ungroup()
+
+max_diff_row <- stocks_ratio |>
+  slice_max(adjdiff_return, n = 1)
+
+max_abs_diff_row <- stocks_ratio |>
+  mutate(abs_adj_diff = abs(adjdiff_return)) |>  # Calculate the absolute difference
+  slice_max(abs_adj_diff, n = 1) |>  # Find the row with the maximum absolute difference
+  ungroup()
+
+# View the result
+max_abs_diff_row
+```
+
+***I was having trouble because I initially calculated just the ratio and but I really wanted a signed (+,-)return. When I first ran the code without the absolute function, I didn't receive the expected output. Upon reviewing the column, I realized that using `max` wouldn't give me the biggest difference in change unless I accounted for negative values. That's why I decided to use `abs()` to ensure I captured the absolute change.***
+
+*If you are curious:* Look for an old news article describing the significance of that event and tell me what happened
+
+***On November 15, 2004, Microsoft held its annual shareholders' meeting, which was a significant event because they discussed a special dividend plan. The company announced a one-time special dividend of \$3.00 per share, pending shareholder approval for amendments to employee stock plans. This dividend was set to be paid on December 2, 2004, to shareholders of record on November 17, 2004​***
+
+[***Microsoft***](https://www.microsoft.com/investor/reports/ar04/nonflash/10k_fr_sp.html)
+
+**Problem 2:** When working with stock price fluctuations or other processes where a quantity increases or decreases according to some multiplicative process like a growth rate (for example population growth) it is often better to work with the `log` of the growth rate rather than the growth rate itself. This allows standard summary statistics such as the mean to have a useful interpretation (otherwise you would have to use the geometric mean). Furthermore, the `log` transform is often useful to use on variables that are strictly positive, such as population growth rates or daily stock returns. To see why, consider a hypothetical stock which had a return of 0.5 (50% loss) on one day and 1.8 on the next day (80% gain). The mean of these two returns would be 1.075, or 7.5% per day. However, at the end of the two day period the stock would have lost 10% of its value (0.5\*1.8 = 0.9). If we had computed the mean of the log(return) instead, we would have found that (log(0.5)+log(1.8))/2 = log(0.9\^(1/2)), or approximately -5.2% per day, matching the observed price change.
+
+-   Create a new variable called `log_return` which is the log of the return variable you calculated in the previous problem. Generate either a histogram or density plot of the distribution of `log_return` for the entire dataset. Then create a QQ-plot of `log_return` using `geom_qq()` and `geom_qq_line()`. What do you notice about the "tails" (right and left side/extreme edges) of the distribution from the QQ-plot? Are there visible signs of this in the density plot/histogram that you made?
+
+```{r problem 2}
+stocks_ratio<- stocks_ratio |>
+  mutate(log_return = log(daily_return))
+
+  ggplot(stocks_ratio, aes(x = log_return)) +
+  geom_density(fill = "blue", alpha = 0.7) +
+  labs(title = "Density Plot of Log Returns", x = "Log Return", y = "Density") +
+  theme_minimal()
+  ggplot(stocks_ratio, aes(x = log_return)) +
+  geom_histogram(bins = 50, fill = "blue", alpha = 0.7) +
+  labs(title = "Histogram of Log Returns", x = "Log Return", y = "Frequency") +
+  theme_minimal()
+  ggplot(stocks_ratio, aes(sample = log_return)) +
+  geom_qq() +
+  geom_qq_line(color = "red") +
+  labs(title = "QQ-Plot of Log Returns", x = "Theoretical Quantiles", y = "Sample Quantiles") +
+  theme_minimal()
+
+```
+
+***There appear to be some extreme outliers at the edges of the QQ-plot, which are difficult to discern from the density plots. This QQ-plot reminds me of data related to crashes and the timing of accidents, but I don’t believe this dataset is circular. Could these patterns suggest some seasonality, such as volatility around quarterly releases or extreme market shifts?*****\
+\
+\
+Problem 3:** Volume measures how many shares were traded of a given stock over a set time period, and high volume days often associate with important events or market dynamics.
+
+-   Make a scatter plot of `volume` versus `log_return`, faceted by symbol to account for the fact that different stocks have different trading volumes. Do you see an association between volume and log_return in these scatter plots?
+
+-   Use the `cor` function to compute the pearson's correlation coefficient between `volume` and `log_return` for each symbol. Why do you think the correlations are close to 0?
+
+Hint: use it with summarize and don't forget that cor is a base R function so you will either need to filter NA values for volume and log_return or appropriately choose the `use` flag in the argument- see ?cor for more info.
+
+-   Next compute the correlation in the same manner but this time transform log_return using the absolute value function. Recreate the faceted scatter-plots from the first part of the problem but with the absolute-value transformed log_return. How have the correlations changed from the previous summary?
+
+    ```{r problem3}
+    #A
+    stocks_ratio |>
+      ggplot(aes(y = volume, x = log_return)) +
+      geom_point(alpha = 0.3) +
+      facet_wrap(~ symbol, scales = "free_y", ncol=3) +
+      labs(title = "Scatter Volume vs. Log Return",
+           y = "Volume",
+           x = "Log Return") +
+         
+      theme_minimal()
+
+    #B
+    correlation_results <- stocks_ratio |>
+      group_by(symbol) |>
+      summarize(
+        correlation = cor(volume, log_return, use = "complete.obs"),
+        .groups = 'drop'
+      )
+
+    print(correlation_results)
+    correlation_abs_results <- stocks_ratio |>
+      group_by(symbol) |>
+      summarize(
+        correlation_abs = cor(volume, abs(log_return), use = "complete.obs"),
+        .groups = 'drop'
+      )
+    print(correlation_abs_results)
+
+    #C
+    stocks_ratio |>
+      ggplot(aes(y = volume, x = abs(log_return))) +
+      geom_point(alpha = 0.3) +
+      facet_wrap(~ symbol, scales = "free_y", ncol=3) +
+      labs(title = "Scatter Volume vs. abslute Log Return",
+           y = "Volume",
+           x = "Log Return") +
+         
+      theme_minimal()
+    ```
+
+    ***The absolute function on log returns removed the negative values, allowing us to focus on how volume correlated with changes in return. For instance, we can now see how much Apple traded whenever there was a 3% change in return. This comparison effectively highlights the relationship between trading volume and price changes. The scatter plot for absolute log returns illustrates this well; I can almost visualize it as if I took the original scatter facet plot and folded it vertically along the 0.0 line of the log return variable.***
+
+**Problem 4:** For this problem we will implement a more complicated mathematical transformation of data by calculating a measure of liquidity for each stock.
+
+Liquidity is defined loosely as the ability for a given asset to be bought or sold without a large impact on price. Liquid assets can be bought and sold quickly and easily, whereas illiquid assets have large increases or decreases in their price when someone tries to buy or sell them in large quantities. Liquidity is considered an important property of a well functioning financial market, and declines in liquidity have been blamed for worsening or triggering stock market crashes.
+
+Many methods have been invented to measure liquidity, but for this problem we will focus on a method called "Kyle's $\lambda$". Kyle's $\lambda$ estimates liquidity by using a linear regression between the absolute value daily return of a stock and the logarithm of the dollar volume of that stock. The time periods used to estimate this regression can vary, but here we will use daily returns and a one month time period (defined as 20 trading days). You will learn a lot about linear models in DATA 606 and other classes, but to be complete, $\lambda$ is a coefficient in the following linear model: $$
+|R_t-1| = c + \lambda \log((\mathrm{Volume})_t (\mathrm{close})_t) + \epsilon_t
+$$ where the coefficients $c$ and $\lambda$ will be calculated to minimize the error $\epsilon_t$ over the past 20 trading days.
+
+$\lambda$ stands for the amount that the stock price will move in units of basis points for a given $\log$ dollar volume of trade. A small $\lambda$ indicates high liquidity, and a high $\lambda$ indicates low liquidity.
+
+$\lambda$ can be be calculated using rolling averages on the time series data with the `TTR` package, specifically the function `runMean` which when used within a `dplyr` pipeline will calculate the mean over the past $n$ data points. For example, the command:
+
+```{r}
+#| eval: false
+#| echo: true
+
+library(TTR)
+stocks_ratio |> group_by(symbol) |>  mutate(log_return_20d = runMean(log_return,n=20))
+
+```
+
+adds a new variable which is equal to the mean of the log_return over the past 20 days. The mathematical formula for $\lambda$ is: $$
+\lambda = \frac{\mathrm{mean}(R_a\log( p_c V ))
+- \mathrm{mean}\left(R_a\right) \mathrm{mean}\left(\log\left(p_c V\right) \right) }
+{\mathrm{mean}\left(\log\left( p_c V \right)^2\right)
+-\mathrm{mean}\left(\log(p_c V)\right)^2 }
+$$ where to make the formula easier to read we have defined $R_a = |\mathrm{return} -1|$, $p_c = \mathrm{close}$ and $V = \mathrm{volume}$, and the averages have been taken over the past 20 days of data.
+
+```{r}
+stocks_ratio <- stocks_ratio |>
+  group_by(symbol) |>
+  mutate(
+    
+    R_a = abs(daily_return - 1),  
+    p_c_V = (volume * close),  
+    kyle = (runMean(R_a *log(p_c_V),n=20 ) -
+                runMean(R_a,n=20 ) * runMean(log(p_c_V),n=20)) 
+              / 
+             (
+               runMean(
+                 (log(p_c_V)^2),n=20) -
+                 (
+                   runMean(
+                     log(p_c_V ),n=20)^2)  
+  )
+  )|>
+  ungroup()
+```
+
+-   Add a new variable called `kyle` to the data frame by implementing the above formula for $\lambda$. Make sure to read and implement the formula very carefully, and to use the `runMean` function to calculate the rolling average correctly.
+
+-   Plot Kyle's lambda for each stock over time (I would use a faceted scatterplot). What do you notice about how this measure of liquidity behaves (remember liquidity is high when $\lambda$ is small)?\
+    \
+    ***Should i have negative values for kyle?\
+    I think this wrong but i dont see my error at this point,***
+
+    ```{r}
+    stocks_ratio |> 
+      ggplot(aes(x = date, y = kyle)) +
+      geom_point(alpha = 0.3) +
+      facet_wrap(~ symbol, scales = "free_y", ncol=3) +
+      labs(title = "Kyle's Lambda Over Time for Each Stock",
+           x = "Date", 
+           y = "Kyle's Lambda") +
+      theme_minimal()
+
+    ```
+
+    ***Again, i am not sure about the -kyle values but as far as i can see the higher the kyle the less amount of trading at that time.***
+
+-   Next add a new variable to the dataframe called `extreme` which is true when the log_return for a given stock is *either* greater than 95% of other values of the log_return *or* less than 95% of all values of log_return. Use the `percent_rank` `dplyr` window function along with logical operators to create this variable. Then for each stock calculate the mean value of Kyle's lambda for the days when the log_return had extreme values and for when it didn't (as identified by the `extreme` variable). What do your calculations and figures indicate about liquidity during extreme events?
+
+```{r}
+stocks_ratio <- stocks_ratio |> 
+  group_by(symbol) |> 
+  mutate(
+    
+    extreme = percent_rank(log_return) > 0.95 | percent_rank(log_return) < 0.05
+  ) |>
+  ungroup()
+
+kyles_mean <- stocks_ratio |> 
+  group_by(symbol, extreme) |> 
+  summarize(mean_kyle = mean(kyle, na.rm = TRUE)) |>
+  ungroup()
+
+kyles_mean
+```
+
+***The figures suggest that liquidity decreases during extreme events, meaning that it becomes more difficult to buy or sell assets without significantly impacting their price.\
+\
+***

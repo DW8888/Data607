@@ -1,41 +1,48 @@
 ---
-title: "Lab 1"
+title: "Lab 1 Airbrb NYC"
 author: "Darwhin Gomez"
 date: "`r Sys.Date()`"
-output: 
-  html_document: 
-    keep_md: true
+output:
+ 
+  format:
+  pdf:
+    documentclass: report
+    keep-tex: true
 ---
 
-
 load packages
+
 ```{r}
 library(tidyverse)
 library(ggridges)
 ```
 
 read the data into R
+
 ```{r}
 nycbnb = read_csv("nycbnb.csv")
 ```
- Problem 1. How many observations (rows) does the dataset have? Instead of hard coding the number in your answer, use inline code.
+
+Problem 1. How many observations (rows) does the dataset have? Instead of hard coding the number in your answer, use inline code.
+
 ```{r}
 length(rownames(nycbnb))
 nrow(nycbnb)
 ```
+
 Problem 2. Run View(nycbnb) in your Console to view the data in the data viewer. What does each row in the dataset represent?
 
 Each row represents a listing on Airbnb, there are specifics about each listing and each listing is unique.
 
+Problem 3. Pick one of the five boroughs of NYC (Manhattan, Queens, Brooklyn, the Bronx, or Staten Island), and create a faceted histogram where each facet represents a neighborhood in your chosen borough and displays the distribution of Airbnb prices in that neighborhood. Think critically about whether it makes more sense to stack the facets on top of each other in a column, lay them out in a row, or wrap them around. Along with your visualization, include your reasoning for the layout you chose for your facets. Filter a borough
 
-
-Problem 3. Pick one of the five boroughs of NYC (Manhattan, Queens, Brooklyn, the Bronx, or Staten Island), and create a faceted histogram where each facet represents a neighborhood in your chosen borough and displays the distribution of Airbnb prices in that neighborhood. Think critically about whether it makes more sense to stack the facets on top of each other in a column, lay them out in a row, or wrap them around. Along with your visualization, include your reasoning for the layout you chose for your facets.
-Filter a borough
 ```{r}
 bronx_data <- nycbnb[nycbnb$borough == "Bronx", ]
 
 ```
-group neighborhood counts and filter for N >= 25
+
+group neighborhood counts and filter for N \>= 25
+
 ```{r}
 neighborhood_counts <- bronx_data |>
   group_by(neighborhood) |>
@@ -66,12 +73,15 @@ ggplot(filtered_bronx_data, aes(x = price)) +
 
 
 ```
-I Decided to go with a Wrap because of the number of plots. After filtering neighborhoods with 25 + listings I ended up with 21 Neighborhoods  allowing me to present a 3X7 faceted plot.
+
+I Decided to go with a Wrap because of the number of plots. After filtering neighborhoods with 25 + listings I ended up with 21 Neighborhoods allowing me to present a 3X7 faceted plot.
 
 Problem 4. Use a single pipeline to identity the neighborhoods city-wide with the top five median listing prices that have a minimum of 50 listings. Then, in another pipeline filter the data for these five neighborhoods and make ridge plots of the distributions of listing prices in these five neighborhoods. In a third pipeline calculate the minimum, mean, median, standard deviation, IQR, and maximum listing price in each of these neighborhoods. Use the visualization and the summary statistics to describe the distribution of listing prices in the neighborhoods. (Your answer will include three pipelines, one of which ends in a visualization, and a narrative.)
+
 ```{r}
 library(ggridges)
 ```
+
 ```{r}
 #4.1
 
@@ -104,7 +114,6 @@ nycbnb |>
 
 ```
 
-
 ```{r}
 sel_neighborhoods <- selected_neighborhoods <- c("Tribeca", "Battery Park City", "Greenwich Village", "Theater District", "SoHo")
 ## ^^I could have done this in the first pipeline and would have been a smoother and more efficient approach
@@ -124,9 +133,11 @@ print(sum_stats)
 
 
 ```
-Among the selected neighborhoods, the Theater District stands out as the most affordable, with the lowest mean price of $320.88 and the lowest minimum listing price of $57. It also has the lowest standard deviation of $165.46, indicating less variability in prices. Both Greenwich Village and Tribeca have the highest maximum listing price of $999. However, Greenwich Village has the highest standard deviation at $251.28, reflecting the greatest variability in pricing among the neighborhoods.
 
-Problem 5. Create a visualization that will help you compare the distribution of review scores (review_scores_rating) across neighborhoods. You get to decide what type of visualization to create and which neighborhoods are most interesting to you, and there is more than one correct answer! In your answer, include a brief interpretation of how Airbnb guests rate properties in general and how the neighborhoods compare to each other in terms of their ratings. 
+Among the selected neighborhoods, the Theater District stands out as the most affordable, with the lowest mean price of \$320.88 and the lowest minimum listing price of \$57. It also has the lowest standard deviation of \$165.46, indicating less variability in prices. Both Greenwich Village and Tribeca have the highest maximum listing price of \$999. However, Greenwich Village has the highest standard deviation at \$251.28, reflecting the greatest variability in pricing among the neighborhoods.
+
+Problem 5. Create a visualization that will help you compare the distribution of review scores (review_scores_rating) across neighborhoods. You get to decide what type of visualization to create and which neighborhoods are most interesting to you, and there is more than one correct answer! In your answer, include a brief interpretation of how Airbnb guests rate properties in general and how the neighborhoods compare to each other in terms of their ratings.
+
 ```{r}
 
 my_neighborhoods <- c("Parkchester","East New York","Bushwick","Harlem")
@@ -149,6 +160,7 @@ ggplot(my_neighborhoods_data, aes(x = neighborhood, y = review_scores_rating, fi
   theme_minimal() 
  print(summary_stats)
 ```
+
 Airbnb guests typically rate their stays based on a combination of factors such as convenience, amenities, price, cleanliness, safety, and accuracy relative to the listing description. From my experience, I evaluate my stay by considering my overall satisfaction at the end of the trip, comparing these factors to my expectations at the time of booking.
 
 Based on the analysis above, I would expect Parkchester listings to provide an experience closer to the expectations set during booking. This expectation is supported by the fact that Parkchester listings show fewer outliers in their review scores. However, it’s important to note that the low number of Parkchester listings might contribute to this observation, potentially skewing the results.

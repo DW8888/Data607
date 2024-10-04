@@ -1,0 +1,991 @@
+name,category,ingredient1,ingredient2,ingredient3,ingredient4,ingredient5,ingredient6
+Gauguin,Cocktail Classics,Light Rum,Passion Fruit Syrup,Lemon Juice,Lime Juice,NA,NA
+Fort Lauderdale,Cocktail Classics,Light Rum,Sweet Vermouth,Juice of Orange,Juice of a Lime,NA,NA
+Apple Pie,Cordials and Liqueurs,Apple schnapps,Cinnamon schnapps,Apple slice,NA,NA,NA
+Cuban Cocktail No. 1,Cocktail Classics,Juice of a Lime,Powdered Sugar,Light Rum,NA,NA,NA
+Cool Carlos,Cocktail Classics,Dark rum,Cranberry Juice,Pineapple Juice,Orange curacao,Sour Mix,NA
+John Collins,Whiskies,Bourbon whiskey,Fresh lemon juice,Simple Syrup,Soda water,"Orange and lemon wheels, maraschino cherry",NA
+Cherry Rum,Cocktail Classics,Light Rum,cherry-flavored brandy,Light cream,NA,NA,NA
+Casa Blanca,Cocktail Classics,Light Rum,Lime Juice,Triple Sec,Maraschino,NA,NA
+Caribbean Champagne,Cocktail Classics,Light Rum,Creme de banana,Chilled Champagne,NA,NA,NA
+Amber Amour,Cordials and Liqueurs,Amaretto,Fresh lemon juice,Simple Syrup,Soda water,NA,NA
+The Joe Lewis,Whiskies,Scotch Whiskey,Fresh carrot juice,Tawny port,Fresh lemon juice,Agave nectar,NA
+Bacardi Cocktail,Cocktail Classics,Bacardi Rum,Juice of a Lime,Grenadine,NA,NA,NA
+Apple Pie No. 1,Cocktail Classics,Light Rum,Sweet Vermouth,Apple Brandy,Grenadine,Lemon Juice,NA
+Yolanda,Cocktail Classics,Brandy,Gin,Anisette,Sweet Vermouth,Grenadine,NA
+Yellow Rattler,Cocktail Classics,Gin,Orange Juice,Dry Vermouth,Sweet Vermouth,NA,NA
+Why Not?,Cocktail Classics,Gin,Apricot Flavored Brandy,Dry Vermouth,Lemon Juice,NA,NA
+Amaretto Stinger,Cordials and Liqueurs,Amaretto,White creme de menthe,NA,NA,NA,NA
+What The Hell,Cocktail Classics,Gin,Dry Vermouth,Apricot Flavored Brandy,Lemon Juice,NA,NA
+Webster Cocktail,Cocktail Classics,Juice of a Lime,Apricot Flavored Brandy,Dry Vermouth,Gin,NA,NA
+Union Jack Cocktail,Cocktail Classics,Sloe gin,Gin,Grenadine,NA,NA,NA
+Jocose Julep,Whiskies,Bourbon whiskey,Green creme de menthe,Fresh Lime Juice,Simple Syrup,Fresh mint leaves,Soda water
+Trinity Cocktail,Cocktail Classics,Sweet Vermouth,Dry Vermouth,Gin,NA,NA,NA
+Three Stripes Cocktail,Cocktail Classics,Gin,Dry Vermouth,Orange Juice,NA,NA,NA
+Tanq-A-Rita,Cocktail Classics,Tanqueray gin,Margarita Mix,Triple Sec,NA,NA,NA
+Amaretto Sour,Cordials and Liqueurs,Amaretto,Fresh lemon juice,Simple Syrup,Orange half-wheel,NA,NA
+Tailspin Cocktail,Cocktail Classics,Gin,Sweet Vermouth,Green Chartreuse,Orange Bitters,NA,NA
+Sweet Patootie Cocktail,Cocktail Classics,Gin,Triple Sec,Orange Juice,NA,NA,NA
+Sunshine Cocktail,Cocktail Classics,Sweet Vermouth,Gin,Bitters,NA,NA,NA
+Spring Feeling Cocktail,Cocktail Classics,Lemon Juice,Green Chartreuse,Gin,NA,NA,NA
+Sphinx Cocktail,Cocktail Classics,Gin,Sweet Vermouth,Dry Vermouth,NA,NA,NA
+Jitterbug Sour,Whiskies,Straight rye whiskey,Benedictine,Fresh lemon juice,Honey Syrup,Egg White,Angostura Bitters
+Southern Gin Cocktail,Cocktail Classics,Gin,Orange Bitters,Triple Sec,NA,NA,NA
+Society Cocktail,Cocktail Classics,Gin,Dry Vermouth,Grenadine,NA,NA,NA
+Snyder,Cocktail Classics,Gin,Dry Vermouth,Triple Sec,NA,NA,NA
+Smiler Cocktail,Cocktail Classics,Sweet Vermouth,Dry Vermouth,Gin,Bitters,Orange Juice,NA
+Smile Cocktail,Cocktail Classics,Grenadine,Gin,Lemon Juice,NA,NA,NA
+Amaretto Rose,Cordials and Liqueurs,Amaretto,Fresh lemon juice,Simple Syrup,Soda water,NA,NA
+Sand-Martin Cocktail,Cocktail Classics,Green Chartreuse,Sweet Vermouth,Gin,NA,NA,NA
+Irish Whiskey Highball,Whiskies,Irish Whiskey,Ginger ale or soda water,Lemon twist (optional),NA,NA,NA
+Japanese,Brandy,Brandy,orgeat or almond syrup,Angostura Bitters,Lemon twist,NA,NA
+Roselyn Cocktail,Cocktail Classics,Dry Vermouth,Gin,Grenadine,NA,NA,NA
+Resolute Cocktail,Cocktail Classics,Juice of a Lemon,Apricot Flavored Brandy,Gin,NA,NA,NA
+Racquet Club Cocktail,Cocktail Classics,Gin,Dry Vermouth,Orange Bitters,NA,NA,NA
+Amaretto And Cream,Cordials and Liqueurs,Amaretto,half-and-half,NA,NA,NA,NA
+Pollyanna Cocktai,Cocktail Classics,Orange,Pineapple,Gin,Sweet Vermouth,Grenadine,NA
+Plaza Cocktail,Cocktail Classics,Sweet Vermouth,Dry Vermouth,Gin,NA,NA,NA
+Irish Whiskey Cocktail,Whiskies,Irish Whiskey,Triple Sec,Anisette,Maraschino liqueur,Angostura Bitters,Green olive
+Absinthe Special Cocktail,Cordials and Liqueurs,Absinthe,Simple Syrup,Orange Bitters,NA,NA,NA
+Nineteenth Hole,Cocktail Classics,Gin,Dry Vermouth,Sweet Vermouth,Bitters,NA,NA
+Montreal Club Bouncer,Cocktail Classics,Gin,Anisette,NA,NA,NA,NA
+Monte Carlo Imperial Highball,Cocktail Classics,Gin,White creme de menthe,Juice of a Lemon,Chilled Champagne,NA,NA
+Irish Shillelagh,Whiskies,Irish Whiskey,Light Rum,Sloe gin,Fresh lemon juice,Simple Syrup,"Fresh raspberries and strawberries, 2 peach slices, maraschino cherry"
+Melon Cocktail,Cocktail Classics,Gin,Lemon Juice,Maraschino,NA,NA,NA
+Martini (Medium),Cocktail Classics,Gin,Dry Vermouth,Sweet Vermouth,NA,NA,NA
+Martini (Dry) (5-to-1),Cocktail Classics,Gin,Dry Vermouth,NA,NA,NA,NA
+Mamie's Sister,Cocktail Classics,Juice of a Lime,Gin,Ginger ale,NA,NA,NA
+Irish Rickey,Whiskies,Irish Whiskey,Fresh Lime Juice,Soda water,Lime wedge,NA,NA
+Maiden's Prayer,Cocktail Classics,Gin,Triple Sec,Lemon Juice,NA,NA,NA
+Lone Tree Cocktail,Cocktail Classics,Sweet Vermouth,Gin,NA,NA,NA,NA
+London Buck,Cocktail Classics,Gin,Juice of a Lemon,Ginger ale,NA,NA,NA
+Leap Frog Highball,Cocktail Classics,Juice of a Lemon,Gin,Ginger ale,NA,NA,NA
+Incider Cocktail,Whiskies,Rye or bourbon whiskey,Apple cider,Apple slice,NA,NA,NA
+Kup's Indispensable Cocktail,Cocktail Classics,Light Vermouth,Dry Vermouth,Gin,Bitters,NA,NA
+Knock-Out Cocktail,Cocktail Classics,Anisette,Gin,Dry Vermouth,Creme de Menthe (White),NA,NA
+K. G. B. Cocktail,Cocktail Classics,Kummel,Gin,Apricot Flavored Brandy,Lemon Juice,NA,NA
+Imperial Fizz,Whiskies,Bourbon or Rye Whiskey,Light Rum,Fresh lemon juice,Simple Syrup,Soda water,NA
+Jeyplak Cocktail,Cocktail Classics,Gin,Sweet Vermouth,Anisette,NA,NA,NA
+H. P. W. Cocktail,Cocktail Classics,Dry Vermouth,Sweet Vermouth,Gin,NA,NA,NA
+I.A.P.,Whiskies,Tennessee whiskey,Fernet-Branca,Cola,NA,NA,NA
+Hotel Plaza Cocktail,Cocktail Classics,Sweet Vermouth,Dry Vermouth,Gin,NA,NA,NA
+Hoffman House Cocktail,Cocktail Classics,Dry Vermouth,Gin,NA,NA,NA,NA
+Hawaiin Cocktail,Cocktail Classics,Gin,Pineapple Juice,Triple Sec,NA,NA,NA
+White Russian,Vodka,Vodka,Coffee liqueur,Milk or half-and-half,NA,NA,NA
+Greyhound,Cocktail Classics,Gin,Grapefruit Juice,NA,NA,NA,NA
+Green Devil,Cocktail Classics,Gin,Green creme de menthe,Lime Juice,NA,NA,NA
+Greenback,Cocktail Classics,Gin,Green creme de menthe,Lemon Juice,NA,NA,NA
+Grapefruit Cocktail,Cocktail Classics,Grapefruit Juice,Gin,Maraschino,NA,NA,NA
+Hotel D'alsace,Whiskies,Fresh rosemary sprig,Irish Whiskey,Benedictine,Triple Sec,NA,NA
+Jamaica Granito,Brandy,Brandy,Triple Sec,Lemon or Orange Sherbet,NA,NA,NA
+Gin Sling,Cocktail Classics,Powdered Sugar,Water,Juice of a Lemon,Gin,NA,NA
+Gin Milk Punch,Cocktail Classics,Powdered Sugar,Gin,Milk,NA,NA,NA
+Horse's Neck (With A Kick),Whiskies,Wide spiral of lemon zest,Bourbon whiskey,Ginger ale,NA,NA,NA
+Gin and It,Cocktail Classics,Gin,Sweet Vermouth,NA,NA,NA,NA
+Gin Cocktail,Cocktail Classics,Gin,Bitters,NA,NA,NA,NA
+West Side,Vodka,lemon-flavored vodka,Fresh lemon juice,Simple Syrup,Fresh mint leaves,NA,NA
+Gimlet,Cocktail Classics,Lime Juice,Powdered Sugar,Gin,NA,NA,NA
+Free Silver,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Gin,Dark rum,Milk,Club Soda
+Frankenjack Cocktail,Cocktail Classics,Gin,Dry Vermouth,Apricot Flavored Brandy,Triple Sec,Juice of a Lime,Gin & ginger ale
+Fog Horn,Cocktail Classics,Juice of a Lime,Gin & ginger ale,Gin,Triple Sec,NA,NA
+Flying Dutchman,Cocktail Classics,Gin,Triple Sec,NA,NA,NA,NA
+Hoot Mon Cocktail,Whiskies,Blended Scotch Whiskey,Sweet Vermouth,Benedictine,Lemon twist,NA,NA
+Fifty-Fifty Cocktail,Cocktail Classics,Gin,Dry Vermouth,NA,NA,NA,NA
+Favorite Cocktail,Cocktail Classics,Apricot Flavored Brandy,Dry Vermouth,Gin,Lemon Juice,NA,NA
+Farmer's Cocktail,Cocktail Classics,Gin,Dry Vermouth,Sweet Vermouth,Bitters,NA,NA
+Warsaw Cocktail,Vodka,Vodka,Blackberry-flavored brandy,Dry Vermouth,Fresh lemon juice,NA,NA
+Emerald Isle Cocktail,Cocktail Classics,Gin,Green creme de menthe,Bitters,NA,NA,NA
+Du Barry Cocktail,Cocktail Classics,Bitters,Dry Vermouth,Anisette,Gin,NA,NA
+Dry Martini (5-to-1),Cocktail Classics,Gin,Dry Vermouth,NA,NA,NA,NA
+Dixie Cocktail,Cocktail Classics,Juice of Orange,Anisette,Dry Vermouth,Gin,NA,NA
+Delmonico No. 2,Cocktail Classics,Orange Bitters,Dry Vermouth,Gin,NA,NA,NA
+Hole-In-One,Whiskies,Blended Scotch Whiskey,Dry Vermouth,Fresh lemon juice,Orange Bitters,NA,NA
+Vodka Stinger,Vodka,Vodka,White creme de menthe,NA,NA,NA,NA
+Caruso,Cocktail Classics,Gin,Dry Vermouth,Green creme de menthe,NA,NA,NA
+Bulldog Highball,Cocktail Classics,Juice of Orange,Gin,Ginger ale,NA,NA,NA
+Brown Cocktail,Cocktail Classics,Gin,Light Rum,Dry Vermouth,NA,NA,NA
+Bronx Terrace Cocktail,Cocktail Classics,Gin,Dry Vermouth,Juice of a Lime,NA,NA,NA
+Bronx Cocktail (Dry),Cocktail Classics,Gin,Dry Vermouth,Juice of Orange,NA,NA,NA
+Hill Dog,Whiskies,White whiskey,Grand Marnier,Dry Sherry,Lavender Syrup,NA,NA
+Blue Devil Cocktail,Cocktail Classics,Gin,Juice of Lemon or Lime,Maraschino,Blue curacao,NA,NA
+Blue Canary,Cocktail Classics,Gin,Grapefruit Juice,Blue curacao,NA,NA,NA
+Blue Bird,Cocktail Classics,Gin,Triple Sec,Bitters,NA,NA,NA
+Bloodhound Cocktail,Cocktail Classics,Dry Vermouth,Sweet Vermouth,Gin,NA,NA,NA
+Billy Taylor,Cocktail Classics,Juice of a Lime,Gin,Club Soda,NA,NA,NA
+Bijou Cocktail,Cocktail Classics,Gin,Green Chartreuse,Sweet Vermouth,Orange Bitters,NA,NA
+Bermuda Rose,Cocktail Classics,Gin,Apricot Flavored Brandy,Grenadine,NA,NA,NA
+Vodka Sour,Vodka,Vodka,Vodka,Fresh lemon juice,Simple Syrup,NA,NA
+Apricot Anisette Collins,Cocktail Classics,Gin,Apricot Flavored Brandy,Anisette,Lemon Juice,NA,NA
+Alexander's Sister Cocktail,Cocktail Classics,Dry gin,Green creme de menthe,Light cream,NA,NA,NA
+Highland Cooler,Whiskies,Blended Scotch Whiskey,Simple Syrup,Soda water or ginger ale,Lemon and/or orange zest spiral(s),NA,NA
+Alexander Cocktail No. 1,Cocktail Classics,Gin,Creme de Cacao (White),Light cream,NA,NA,NA
+Adam and Eve,Cocktail Classics,Forbidden Fruit,Gin,Brandy,Lemon Juice,NA,NA
+Vodka Sling,Vodka,Vodka,Fresh lemon juice,Simple Syrup,Orange twist,NA,NA
+Jack Rose Cocktail,Brandy,Applejack,Fresh Lime Juice,Grenadine,NA,NA,NA
+Tempter Cocktail,Cocktail Classics,Port,Apricot Flavored Brandy,NA,NA,NA,NA
+Special Rough Cocktail,Cocktail Classics,Apple Brandy,Brandy,Anisette,NA,NA,NA
+Vodka Grasshopper,Vodka,Vodka,Green creme de menthe,White creme de cacao,half-and-half,NA,NA
+Singapore Sling,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Gin,Club Soda,cherry-flavored brandy,NA
+Saratoga Cocktail,Cocktail Classics,Brandy,Bitters,Lemon Juice,Pineapple Juice,Maraschino,NA
+High Cotton,Whiskies,Straight rye whiskey,Pimm's No. 1 Cup,Dubonnet Rouge,Peach bitters,NA,NA
+Polonaise,Cocktail Classics,Brandy,Blackberry-flavored brandy,Dry Sherry,Lemon Juice,NA,NA
+Vodka Gimlet,Vodka,Vodka,Fresh Lime Juice,Simple Syrup,NA,NA,NA
+Merry Widow Cocktail No. 2,Cocktail Classics,Maraschino,cherry-flavored brandy,NA,NA,NA,NA
+Lugger,Cocktail Classics,Brandy,Apple Brandy,Apricot Flavored Brandy,NA,NA,NA
+Jamaica Hop,Cocktail Classics,Coffee-flavored brandy,Creme de Cacao (White),Light cream,NA,NA,NA
+Hebrides,Whiskies,Single-malt Scotch whisky,Maraschino liqueur,Triple Sec,Apple juice,Fresh lemon juice,Angostura Bitters
+Hennessy Martini,Cocktail Classics,Hennessy V.S Cognac,Lemon Juice,NA,NA,NA,NA
+Vodka Daisy,Vodka,Vodka,Fresh lemon juice,Simple Syrup,Grenadine,NA,NA
+Heavenly Dram,Whiskies,Single-malt Scotch whisky,Pedro Ximenez sherry,Fresh lemon juice,Honey Syrup,NA,NA
+Classic Cocktail,Cocktail Classics,Juice of a Lemon,Curacao,Maraschino,Brandy,NA,NA
+Cherry Sling,Cocktail Classics,cherry-flavored brandy,Juice of a Lemon,NA,NA,NA,NA
+Cherry Fizz,Cocktail Classics,Juice of a Lemon,cherry-flavored brandy,Club Soda,NA,NA,NA
+Vodka Cooler,Vodka,Vodka,Simple Syrup,Soda water or ginger ale,Orange and/or lemon zest spiral,NA,NA
+Carrol Cocktail,Cocktail Classics,Brandy,Sweet Vermouth,NA,NA,NA,NA
+Button Hook Cocktail,Cocktail Classics,Creme de Menthe (White),Apricot Flavored Brandy,Anisette,Brandy,NA,NA
+Bull's Eye,Cocktail Classics,Brandy,Hard cider,NA,NA,NA,NA
+Brantini,Cocktail Classics,Brandy,Gin,Dry Vermouth,NA,NA,NA
+Heather's Kiss,Whiskies,Blended Scotch Whiskey,Fresh lemon juice,Agave nectar,Absinthe,NA,NA
+Brandy Squirt,Cocktail Classics,Brandy,Powdered Sugar,Grenadine,Club Soda,NA,NA
+Brandy and Soda,Cocktail Classics,Brandy,Club Soda,NA,NA,NA,NA
+Brandy Milk Punch,Cocktail Classics,Powdered Sugar,Brandy,Milk,NA,NA,NA
+Vodka Collins,Vodka,Vodka,Fresh lemon juice,Simple Syrup,Soda water,NA,NA
+Brandy Crusta Cocktail,Cocktail Classics,Maraschino,Bitters,Lemon Juice,Triple Sec,Brandy,NA
+Heather Blush,Whiskies,Blended Scotch Whiskey,Strawberry liqueur,Chilled sparkling wine,Whole strawberry,NA,NA
+Jack Maples,Brandy,Applejack,maple syrup (grade B or medium-amber),Aromatic bitters,Cinnamon stick,NA,NA
+Brandy Alexander,Cocktail Classics,Creme de Cacao (Brown),Brandy,Heavy cream,NA,NA,NA
+Vodka and Tonic,Vodka,Vodka,Tonic water,Lemon or lime wedge,NA,NA,NA
+Apricot Cocktail,Cocktail Classics,Juice of a Lemon,Juice of Orange,Apricot Flavored Brandy,Gin,NA,NA
+Alexander Cocktail No. 2,Cocktail Classics,Creme de Cacao (White),Brandy,Light cream,NA,NA,NA
+After Dinner Cocktail,Cocktail Classics,Apricot Flavored Brandy,Triple Sec,Juice of a Lime,NA,NA,NA
+Harvest Moon,Whiskies,Straight rye whiskey,Lillet Blanc,Apple Brandy,Green Chartreuse,Angostura Bitters,Orange twist
+Red Raider,Cocktail Classics,Bourbon,Triple Sec,Lemon Juice,Grenadine,NA,NA
+Vodka and Apple Juice,Vodka,Vodka,Apple juice,NA,NA,NA,NA
+Mint Julep (Southern Style),Cocktail Classics,springs mint,Powdered Sugar,Water,Bourbon,NA,NA
+Limestone,Cocktail Classics,Bourbon,Collins Mix,Lime Juice,NA,NA,NA
+Grounds For Divorce,Whiskies,Straight rye whiskey,Kirschwasser,Cynar,Amaro,NA,NA
+Gentleman's Cocktail,Cocktail Classics,Bourbon,Brandy,Creme de Menthe,Club Soda,NA,NA
+Dixie Julep,Cocktail Classics,Powdered Sugar,Bourbon,NA,NA,NA,NA
+Victory Collins,Vodka,Vodka,Unsweetened Grape Juice,Fresh lemon juice,Simple Syrup,NA,NA
+Buddy's Favorite,Cocktail Classics,Bourbon,Cold Water,NA,NA,NA,NA
+Bourbon On The Rocks,Cocktail Classics,Bourbon,NA,NA,NA,NA,NA
+Bourbon Cobbler,Cocktail Classics,Bourbon,Lemon Juice,Grapefruit Juice,Almond extract,NA,NA
+Bourbon and Water,Cocktail Classics,Bourbon,Water,NA,NA,NA,NA
+Greenpoint,Whiskies,Straight rye whiskey,Yellow Chartreuse,Sweet Vermouth,Angostura Bitters,Orange Bitters,Lemon twist
+Yellowjacket,Non-alcoholic Drinks,Pineapple Juice,Orange Juice,Lemon Juice,NA,NA,NA
+Velvet Peach Hammer,Vodka,Vodka,Peach schnapps,Simple Syrup,Fresh lemon juice,NA,NA
+Grandfather,Whiskies,Bourbon whiskey,Applejack,Sweet Vermouth,Angostura Bitters,Peychaud's Bitters,Maraschino cherry
+Goldrush,Whiskies,Bourbon whiskey,Fresh lemon juice,Honey Syrup,NA,NA,NA
+Sake Martini,Cocktail Classics,Sake,Mr. Boston Gin,NA,NA,NA,NA
+Godfather,Whiskies,Blended Scotch Whiskey,Amaretto,NA,NA,NA,NA
+Jack-In-The-Box,Brandy,Applejack,Pineapple Juice,Angostura Bitters,NA,NA,NA
+Saronno,Cocktail Classics,Amaretto di Saronno,Mr. Boston Five Star Brandy,Light cream,NA,NA,NA
+Saronno Colada (Nutty Colada),Cocktail Classics,Amaretto di Saronno,Coconut Milk,Crushed Pineapple,NA,NA,NA
+Saronno Mist,Cocktail Classics,Amaretto di Saronno,NA,NA,NA,NA,NA
+Saronno Rose,Cocktail Classics,Amaretto di Saronno,Roses Lime Juice,Club Soda,NA,NA,NA
+Gilchrist,Whiskies,Blended Scotch Whiskey,Pear brandy,Grapefruit Juice,Amaro,Grapefruit bitters,Lemon twist
+Frisco Sour,Whiskies,Bourbon or Rye Whiskey,Fresh lemon juice,Fresh Lime Juice,Benedictine,Lemon and lime wheels,NA
+Fratelli Cocktail,Whiskies,Straight rye whiskey,Sweet Vermouth,Yellow Chartreuse,Fernet-Branca,NA,NA
+Francis The Mule,Whiskies,Bourbon whiskey,Coffee liqueur,Fresh lemon juice,orgeat or almond syrup,Orange Bitters,Lemon twist
+Fox River Cocktail,Whiskies,Bourbon or Rye Whiskey,Dark creme de cacao,Angostura Bitters,NA,NA,NA
+Flying Scotchman,Whiskies,Blended Scotch Whiskey,Sweet Vermouth,Angostura Bitters,Simple Syrup,NA,NA
+The Final Ward,Whiskies,Straight rye whiskey,Maraschino liqueur,Green Chartreuse,Fresh lemon juice,NA,NA
+Martini,Cocktail Classics,Mr. Boston Gin,Dry Vermouth,NA,NA,NA,NA
+Fancy Whiskey,Whiskies,Bourbon or rye whiskey,Angostura Bitters,Triple Sec,Simple Syrup,Lemon twist,NA
+Mandarine Sour,Cocktail Classics,Mandarine Napoleon Liqueur,Lemon Juice,NA,NA,NA,NA
+Mandarine Mist,Cocktail Classics,Mandarine Napoleon Liqueur,NA,NA,NA,NA,NA
+Underneath The Mango Tree,Vodka,"Lime wedge, Sweet Chili Powder",Mango-flavored vodka,Peach liqueur,Fresh Lime Juice,Simple Syrup,Ginger ale
+Fancy-Free Cocktail,Whiskies,Bourbon whiskey,Maraschino liqueur,Angostura Bitters,Orange Bitters,NA,NA
+Honeymoon Cocktail,Brandy,Apple Brandy,Benedictine,Fresh lemon juice,Triple Sec,NA,NA
+Twister,Vodka,Vodka,Fresh Lime Juice,Lime wedge,Lemon-lime soda,NA,NA
+Everybody's Irish Cocktail,Whiskies,Irish Whiskey,Green creme de menthe,Green Chartreuse,Green olive,NA,NA
+Trident,Vodka,Aquavit or vodka,Cynar,Dry Sherry,Peach bitters,NA,NA
+Top Banana,Vodka,Vodka,Creme de banana,Orange juice,NA,NA,NA
+Emperor Norton's Mistress,Whiskies,"Fresh strawberries, cut in halves",Bourbon whiskey,Vanilla liqueur,Triple Sec,NA,NA
+Easterner,Whiskies,Straight rye whiskey,Fresh grapefruit juice,Maple Syrup,Grapefruit twist,NA,NA
+Toasted Drop,Vodka,"Lemon wedge, Cinnamon Sugar",Citrus-flavored vodka,Limoncello,Amaretto,Fresh lemon juice,Egg White
+Eastern Sour,Whiskies,Bourbon whiskey,Orange juice,Fresh Lime Juice,orgeat or almond syrup,Simple Syrup,Orange and lime wheels
+K. C. B. Cocktail,Cocktail Classics,Kummel,Mr. Boston Gin,Mr. Boston Apricot Flavored Brandy,Lemon Juice,NA,NA
+Easter Elchies,Whiskies,Single-malt Scotch whisky,Cherry Heering,Punt e Mes,Orange Bitters,NA,NA
+Dufftown Flip,Whiskies,Blended Scotch Whiskey,Port,Demerara Syrup,Almond milk,Whole Egg,Freshly grated nutmeg
+Harvard Cooler,Brandy,Apple Brandy,Simple Syrup,Soda water or ginger ale,Orange and/or lemon zest spiral,NA,NA
+The Duboudreau Cocktail,Whiskies,Straight rye whiskey,Dubonnet Rouge,Fernet-Branca,Elderflower liqueur,NA,NA
+Irish Whisky,Cocktail Classics,Mr. Boston Triple Sec,Absinthe Substitute,Maraschino,Bitters,Irish Whiskey,NA
+Dubliner,Whiskies,Irish Whiskey,Sweet Vermouth,Grand Marnier,Orange Bitters,NA,NA
+Double Standard Sour,Whiskies,Rye or bourbon whiskey,Gin,Fresh lemon juice,White creme de menthe,Grenadine,Simple Syrup
+Dixie Whiskey Cocktail,Whiskies,Bourbon whiskey,White creme de menthe,Triple Sec,Simple Syrup,Angostura Bitters,NA
+Hill Billy Highball,Cocktail Classics,Georgia Moon Corn Whiskey,Mountain Dew,NA,NA,NA,NA
+The Titian,Vodka,Orange-flavored vodka,Grand Marnier,Passion Fruit Juice,Fresh Lime Juice,Pomegranate syrup,Fresh raspberry
+Tiger Tanaka,Vodka,Fresh cilantro leaves,Slice peeled fresh ginger,Citrus-flavored vodka,Limoncello,Pineapple Juice,NA
+Grenadine Rickey,Cocktail Classics,Juice of a Lime,Grenadine,NA,NA,NA,NA
+Thyme Collins,Vodka,Citrus-flavored vodka,Mint syrup,Fresh lemon juice,Thyme sprig,Bitter lemon soda,Long thyme sprigs
+Tabby Cat,Vodka,Dubonnet Rouge,Orange-flavored vodka,Orange Bitters,Lemon twist,NA,NA
+God Child,Cocktail Classics,Amaretto di Saronno,Mr. Boston Vodka,Heavy cream,NA,NA,NA
+Sweet Maria,Vodka,Vodka,Amaretto,half-and-half,NA,NA,NA
+Dirty Harry,Whiskies,Absinthe,Straight rye whiskey,Sweet Vermouth,Maraschino liqueur,NA,NA
+Harvard Cocktail,Brandy,Brandy,Sweet Vermouth,Fresh lemon juice,Grenadine,Angostura Bitters,NA
+Gin and Milk Punch,Cocktail Classics,Powdered Sugar,Mr. Boston Gin,Milk,NA,NA,NA
+Surf Rider,Vodka,Vodka,Sweet Vermouth,Fresh orange juice,Fresh lemon juice,Grenadine,"Orange half-wheel, maraschino cherry"
+Dinah Cocktail,Whiskies,Bourbon whiskey,Fresh lemon juice,Simple Syrup,Fresh mint leaf,NA,NA
+Tea Saronno,Cocktail Classics,Hot Tea,Amaretto di Saronno,Whipped cream,NA,NA,NA
+The Summer Of Love,Vodka,Orange-flavored vodka,Rose water,Lillet Blanc,Black raspberry liqueur,NA,NA
+Devil's Soul,Whiskies,Straight rye whiskey,Mezcal,Amaro,Aperol,Elderflower liqueur,"Orange twist, flamed"
+Deshler,Whiskies,Straight rye whiskey,Dubonnet Rouge,Triple Sec,Angostura Bitters,NA,NA
+T.N.T. No. 1,Cocktail Classics,Old Thompson Blended Whiskey,Absinthe Substitute,NA,NA,NA,NA
+Stupid Cupid,Vodka,Citrus-flavored vodka,Sloe gin,Simple Syrup,Fresh lemon juice,NA,NA
+Derby,Whiskies,Bourbon whiskey,Benedictine,Angostura Bitters,Lemon twist,NA,NA
+Stockholm 75,Vodka,"Lemon wedge, superfine sugar",Citrus-flavored vodka,Simple Syrup,Fresh lemon juice,Chilled Champagne,NA
+The Delmarva Cocktail,Whiskies,Straight rye whiskey,Dry Vermouth,White creme de menthe,Fresh lemon juice,NA,NA
+Sputnik,Vodka,Vodka,Peach schnapps,Fresh orange juice,half-and-half,NA,NA
+Gotham,Brandy,Absinthe or pastis,Brandy,Peach bitters,Lemon twist,NA,NA
+De La Louisiane,Whiskies,Straight rye whiskey,Sweet Vermouth,Benedictine,Absinthe or pastis,Peychaud's Bitters,Maraschino cherry
+The Debonair,Whiskies,Single-malt Scotch whisky,Ginger liqueur,Lemon twist,NA,NA,NA
+Soviet,Vodka,Vodka,Amontillado sherry,Dry Vermouth,Lemon twist,NA,NA
+Daisy Dueller,Whiskies,Tennessee whiskey,Fresh lemon juice,Simple Syrup,Triple Sec,NA,Orange and lemon wheels
+Sonic Blaster,Vodka,Vodka,Light Rum,Creme de banana,Pineapple Juice,Orange juice,Cranberry Juice
+Creole Lady,Whiskies,Bourbon whiskey,Madeira,Grenadine,Maraschino cherry,NA,NA
+Rum Coooler,Cocktail Classics,powdered sugar,carbonated water,Mr. Boston Rum,ginger ale,NA,NA
+Siberian Sleighride,Vodka,Vodka,White creme de cacao,White creme de menthe,half-and-half,NA,NA
+Cotton Club Flip,Whiskies,Vanilla-Infused Bourbon,Honey-Currant Syrup,Fresh Lime Juice,Egg White,Rhubarb bitters,Stick of cotton candy
+Golden Dawn,Brandy,Apple Brandy,Apricot-Flavored Brandy,Gin,Fresh orange juice,Grenadine,NA
+Sidecar,Cocktail Classics,Cognac,Triple Sec,Fresh lemon juice,Vodka,Madeira,Fresh orange juice and orange wheel
+Shalom,Vodka,Vodka,Madeira,Fresh orange juice and orange wheel,Bourbon Whiskey,White creme de cacao,Fresh lemon juice
+Commodore Cocktail,Whiskies,Bourbon Whiskey,White creme de cacao,Fresh lemon juice,Grenadine,NA,NA
+Sea Breeze,Vodka,Vodka,Cranberry Juice,Fresh grapefruit juice,Lime wedge,NA,NA
+Screwdriver,Vodka,Vodka,Orange juice,NA,NA,NA,NA
+Coffee Old-Fashioned,Whiskies,Bourbon whiskey,Simple Syrup,Angostura Bitters,Cold brewed coffee,Soda water,"Orange wheel, maraschino cherry"
+Dry Martini,Cocktail Classics,Mr. Boston Gin,Dry Vermouth,NA,NA,NA,NA
+Salty Dog,Vodka,"Lemon wedge, coarse salt",Vodka,Grapefruit Juice,NA,NA,NA
+Dr. Cook,Cocktail Classics,Mr. Boston Gin,Lemon Juice,Maraschino,Egg White,NA,NA
+Dillatini Cocktail,Cocktail Classics,Mr. Boston Gin,Dry Vermouth,NA,NA,NA,NA
+Chi-Town Flip,Whiskies,Bourbon whiskey,Tawny port,Fresh lemon juice,Vanilla liqueur and 3 oz,Simple Syrup,Whole Egg and grated nutmet
+Chef's Pain,Vodka,Bourbon whiskey,Fresh Lime Juice,Blackberry liqueur,B & B,NA,NA
+Sampan Shipwreck A,Vodka,Vodka,Orange liqueur,Canned coconut milk,Cold brewed chai tea,orgeat or almond syrup,Pineapple wedge
+Chas,Whiskies,Bourbon whiskey,Amaretto,Benedictine,Triple Sec,Orange curacao,Orange twist
+Goat's Delight,Brandy,Brandy,Kirschwasser,half-and-half,orgeat or almond syrup,Absinthe or pastis,NA
+Russian Bear Cocktail,Vodka,Vodka,White creme de cacao,half-and-half,NA,NA,NA
+Character Development,Whiskies,Scotch Whiskey,Coconut liqueur,Dry Sherry,Grapefruit bitters,NA,NA
+Ruby Red,Vodka,Grapefruit-flavored vodka,Triple Sec,Fresh ruby red grapefruit juice,Fresh orange juice,NA,NA
+Chaplin,Whiskies,Bourbon whiskey,Dry Sherry,Ramazzotti Amaro,Triple Sec,Orange Bitters,Lemon twist
+Rouxby Red,Vodka,"For glass Lemon wedge, coarse salt",Grapefruit-flavored vodka,Fresh lemon juice,Grapefruit Juice,Campari,Simple Syrup
+Rosemary Clementine Sparkle,Vodka,Clementine or mandarin orange,Vodka,Fresh lemon juice,Honey Syrup,Fresh rosemary sprig,Chilled sparkling wine or Champagne
+Chapel Hill,Whiskies,Bourbon whiskey,Triple Sec,Fresh lemon juice,Orange twist,NA,NA
+Robin's Nest,Vodka,Vodka,Cranberry Juice,White creme de cacao,NA,NA,NA
+Chancellor Cocktail,Whiskies,Blended Scotch Whiskey,Dry Vermouth,Tawny port,Peychaud's Bitters,NA,NA
+Cafe di Saronno,Cocktail Classics,Amaretto di Saronno,Hot Black Coffee,NA,NA,NA,NA
+Carre Reprise,Whiskies,Straight rye whiskey,Cognac,Sweet Vermouth,Elderflower liqueur,Angostura Bitters,Peychaud's Bitters
+Gilroy Cocktail,Brandy,cherry-flavored brandy,Gin,Dry Vermouth,Fresh lemon juice,Orange Bitters,NA
+Redhead Martini,Vodka,"Strawberries, cut into halves",Fresh lemon juice,Simple Syrup,Citrus-flavored vodka,Chilled Moscato d'Asti or sweet sparkling wine,Strawberry
+Red Apple,Vodka,Vodka,Apple juice,Fresh lemon juice,Grenadine,NA,NA
+Canal Street Daisy,Whiskies,Blended Scotch Whiskey,Orange juice,Fresh lemon juice,Soda water,Orange wheel,NA
+Canadian Cocktail,Whiskies,Canadian whisky,Triple Sec,Simple Syrup,Angostura Bitters,NA,NA
+Purple Ruby,Vodka,Vodka,Pomegranate juice,Grapefruit Juice,Fresh Lime Juice,Honey Syrup,Grapefruit twist
+Canadian Cherry,Whiskies,Maraschino liqueur,Canadian whisky,Maraschino liqueur,Fresh lemon juice,Orange juice,NA
+Orange Smile,Cocktail Classics,Egg,Juice of Orange,Grenadine,NA,NA,NA
+Purple Passion Iced Tea,Vodka,Vodka,Light Rum,Gin,Black raspberry liqueur,Simple Syrup,Fresh lemon juice and 3 oz
+Canadian Breeze,Whiskies,Canadian whisky,Pineapple Juice,Fresh lemon juice,Maraschino liqueur,"Pineapple wedge, maraschino cherry",NA
+Purple Passion,Vodka,Vodka,Grapefruit Juice,Concord grape juice,Simple Syrup,NA,NA
+Cameron's Kick Cocktail,Whiskies,Blended Scotch Whiskey,Irish Whiskey,Fresh lemon juice,Orange Bitters,NA,NA
+Georgia Mint Julep,Brandy,Mint sprigs,Simple Syrup,Brandy,Peach-flavored brandy,NA,NA
+California Lemonade,Whiskies,Bourbon whiskey,Fresh lemon juice,Fresh Lime Juice,Simple Syrup,Grenadine,"Soda water, Orange and lemon wheels, maraschino cherry"
+Boston Side Car,Cocktail Classics,Mr. Boston Five Star Brandy,Mr. Boston Rum,Mr. Boston Triple Sec,Juice of a Lime,NA,NA
+Cablegram,Whiskies,Bourbon whiskey,Fresh lemon juice,Simple Syrup,Ginger ale,NA,NA
+Bull And Bear,Whiskies,Bourbon whiskey,Orange curacao,Fresh lemon juice,Grenadine,NA,NA
+Brooklyn,Whiskies,Rye or bourbon whiskey,Sweet Vermouth,Amer Picon or Torani Amer,Maraschino liqueur,NA,NA
+Brighton Punch,Whiskies,Bourbon whiskey,Brandy,Benedictine,Orange juice,Fresh lemon juice,"Soda water, orange and lemon wheels"
+Bourbon Renewal,Whiskies,Bourbon whiskey,Fresh lemon juice,Creme de Cassis,Simple Syrup,Angostura Bitters,NA
+Bourbon Highball,Whiskies,Bourbon whiskey,Ginger ale or soda water,Lemon twist,NA,NA,NA
+Bourbon And Elder,Whiskies,Bourbon whiskey,Elderflower liqueur,Angostura Bitters,Lemon twist,NA,NA
+Bourbon Crusta,Whiskies,"Lemon wedge, superfine sugar,  Long, wide spiral of orange zest",Bourbon whiskey,Triple Sec,Maraschino liqueur,Fresh lemon juice,Orange Bitters
+Bourbon Cooler,Whiskies,Bourbon whiskey,Fresh lemon juice,Grapefruit Juice,Orgeat Syrup,NA,NA
+Froupe Cocktail,Brandy,Brandy,Sweet Vermouth,Benedictine,NA,NA,NA
+Bourbon A La Creme,Whiskies,Bourbon whiskey,Dark creme de cacao,Vanilla liqueur,NA,NA,NA
+The Bone,Whiskies,Bourbon whiskey,Fresh Lime Juice,Simple Syrup,Hot red pepper sauce,NA,NA
+Bobby Burns Cocktail,Whiskies,Blended Scotch Whiskey,Sweet Vermouth,Benedictine,Lemon twist,NA,NA
+Bloody Scotsman,Whiskies,"Smoky Scotch whisky, such as Laphroaig",Tomato Juice,V8 cocktail juice,ketchup,Fresh Lime Juice,"Simple Syrup, 3/4 oz"
+White Cargo Cocktail,Cocktail Classics,Vanilla Ice Cream,Mr. Boston Gin,NA,NA,NA,NA
+Blood and Sand,Whiskies,Blended Scotch Whiskey,cherry-flavored brandy,Sweet Vermouth,Orange juice,NA,NA
+The Blinker,Whiskies,Straight rye whisky,Grapefruit Juice,Raspberry Syrup,Grapefruit twist or skewered raspberry,NA,NA
+Pike's Peak Cooler,Cocktail Classics,Cider,Juice of a Lemon,Powdered Sugar,Whole Egg,NA,NA
+Blarney Stone Cocktail,Whiskies,Irish Whiskey,Anisette,Triple Sec,Maraschino liqueur,Angostura Bitters,"Orange twist, green olive"
+Pacman,Cocktail Classics,Lemon Juice,Grenadine,Bitters,Ginger ale,NA,NA
+Lemonade (Golden),Cocktail Classics,Juice of a Lemon,Powdered Sugar,Egg Yolk,Water,NA,NA
+Black Hawk,Whiskies,Bourbon whiskey,Sloe gin,Maraschino cherry,NA,NA,NA
+Lemonade (Egg),Cocktail Classics,Juice of a Lemon,Powdered Sugar,Whole Egg,NA,NA,NA
+Bensonhurst,Whiskies,Cynar,Straight rye whiskey,Dry Vermouth,Maraschino liqueur,NA,NA
+Chocolate Daisy,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Grenadine,Brandy,Port,NA
+The Beautiful Day,Whiskies,Irish Whiskey,Rhubarb Syrup,Cold brewed green tea,Edible flowers,NA,NA
+French Quarter,Brandy,Brandy,Lillet Blanc,Lemon quarter-wheel,NA,NA,NA
+Creme de Gin Cocktail,Cocktail Classics,Gin,White creme de menthe,Egg White,Lemon Juice,Orange Juice,NA
+Creamy Screwdriver,Cocktail Classics,Vodka,Egg Yolk,Orange Juice,Sugar,NA,NA
+Creamy Orange,Cocktail Classics,Orange Juice,Cream sherry,Brandy,Light cream,NA,NA
+Creamsicle,Cocktail Classics,Vanilla liqueur,Milk,Orange Juice,NA,NA,NA
+Cowboy Cocktail,Cocktail Classics,Blended whiskey,Light cream,NA,NA,NA,NA
+Beals Cocktail,Whiskies,Blended Scotch Whiskey,Dry Vermouth,Sweet Vermouth,NA,NA,NA
+Coronation Cocktail,Cocktail Classics,Gin,Dubonnet,Dry Vermouth,NA,NA,NA
+Cornell Cocktail,Cocktail Classics,Lemon Juice,Maraschino,Egg White,Gin,NA,NA
+Combo,Cocktail Classics,Dry Vermouth,Brandy,Triple Sec,Powdered Sugar,Bitters,NA
+Basin Street,Whiskies,Bourbon whiskey,Triple Sec,Fresh lemon juice,NA,NA,NA
+Cole's Raspberry Cream,Cocktail Classics,Raspberry Yogurt,Raspberry Ice Cream,White creme de cacao,Vodka,Heavy cream,NA
+Cognac Coupling,Cocktail Classics,Cognac,Tawny port,Anis,Lemon Juice,NA,NA
+Coffee Sour,Cocktail Classics,Coffee-flavored brandy,Lemon Juice,Powdered Sugar,Egg White,NA,NA
+Coffee Flip,Cocktail Classics,Whole Egg,Powdered Sugar,Brandy,Port,Light Cream (if desired),NA
+Coffee Cocktail,Cocktail Classics,Whole Egg,Powdered Sugar,Port,Brandy,NA,NA
+Purple Mask,Vodka,Vodka,Concord grape juice,White creme de cacao,NA,NA,NA
+Clove Cocktail,Cocktail Classics,Sweet Vermouth,Sloe gin,Muscatel Wine,NA,NA,NA
+Clover Leaf Cocktail,Cocktail Classics,Juice of a Lime,Grenadine,Egg White,Gin,NA,NA
+Clover Club Cocktail,Cocktail Classics,Juice of a Lemon,Grenadine,Egg White,Gin,NA,NA
+Priority Cocktail,Vodka,Vodka,Calvados,Coffee liqueur,Lemon twist,NA,NA
+Clamato Cocktail,Cocktail Classics,Vodka,Clam Juice,Tomato Juice,NA,NA,NA
+Cider Eggnog,Cocktail Classics,Whole Egg,Powdered Sugar,Milk,NA,NA,NA
+Chocolate Soldier,Cocktail Classics,Juice of a Lime,Dubonnet,Gin,NA,NA,NA
+Chocolate Flip,Cocktail Classics,Whole Egg,Powdered Sugar,Sloe gin,Brandy,Light Cream (if desired),NA
+Chocolate Cocktail,Cocktail Classics,Port,Yellow Chartreuse,Egg Yolk,Powdered Sugar,NA,NA
+Chicago Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Egg White,Port,Light Rum,NA
+Pretty In Pink,Vodka,Vodka,Cranberry Juice,Creme de noyaux,Fresh lemon juice,NA,NA
+Cherry Wine Cocktail,Cocktail Classics,Danish Cherry Wine,Vodka,Juice of a Lime,NA,NA,NA
+Cherry Flip,Cocktail Classics,Whole Egg,Powdered Sugar,cherry-flavored brandy,Light Cream (if desired),NA,NA
+Cherry Cooler,Cocktail Classics,Cherry Vodka,Cola,NA,NA,NA,NA
+Polynesian Cocktail,Vodka,"Lime wedge, superfine sugar",Vodka,cherry-flavored brandy,Fresh Lime Juice,NA,NA
+Chateau Briand's Rum Cow,Cocktail Classics,Dark rum,Sugar,Bitters,Milk,NA,NA
+Champagne Velvet,Cocktail Classics,Chilled Stout,Chilled Champagne,NA,NA,NA,NA
+Pink Pussycat,Vodka,Vodka,Pineapple or grapefruit juice,Grenadine,NA,NA,NA
+Back Porch Swizzle,Whiskies,Bourbon whiskey,Dry Vermouth,Pineapple Juice,Ginger beer,NA,Fresh mint sprig
+Canadian Pineapple,Cocktail Classics,Canadian whisky,Pineapple Juice,Lemon Juice,Maraschino,NA,NA
+Calm Voyage,Cocktail Classics,Strega,Light Rum,Passion Fruit Syrup,Lemon Juice,Egg White,NA
+Pink Lemonade,Vodka,Citrus-flavored vodka,Triple Sec,Fresh Lime Juice,Fresh lemon juice,Simple Syrup,"Cranberry Juice, lemon wheel"
+Caledonia,Cocktail Classics,Creme de Cacao (Brown),Brandy,Milk,Egg Yolk,NA,NA
+Caf_ di Amaretto,Cocktail Classics,Hot Black Coffee,Amaretto,Whipped cream,NA,NA,NA
+Cafe De Paris Cocktail,Cocktail Classics,Egg White,Anis,Light cream,Gin,NA,NA
+Aztec's Mark,Whiskies,Bourbon whiskey,White creme de cacao,Benedictine,Hot red pepper sauce,NA,NA
+Fontainebleau Special,Brandy,Brandy,Anisette,Dry Vermouth,NA,NA,NA
+Suntan,Cocktail Classics,Hot Shot Tropical Fruit Liqueur,Orange Juice,NA,NA,NA,NA
+Sunburn,Cocktail Classics,Hot Shot Tropical Fruit Liqueur,Grapefruit Juice,NA,NA,NA,NA
+Suissesse Cocktail,Cocktail Classics,Anisette,Egg White,NA,NA,NA,NA
+Strawberry Sunries,Cocktail Classics,Strawberry schnapps,Grenadine,NA,NA,NA,NA
+Autumn Leaves,Whiskies,Straight rye whiskey,Apple Brandy,Sweet Vermouth,Strega,Angostura Bitters,Orange twist
+Pickled Pink,Vodka,Vodka,Aquavit,Dill pickle brine,Angostura Bitters,NA,NA
+Aquarius,Whiskies,Blended Scotch Whiskey,cherry-flavored brandy,Cranberry Juice,NA,NA,NA
+Soul Kiss Cocktail,Cocktail Classics,Orange Juice,Dubonnet,Dry Vermouth,Bourbon,NA,NA
+Pickled Martini,Vodka,Vodka,Dry Vermouth,Sweet pickle brine,Sweet pickle slice,NA,NA
+Sloe Gin Flip,Cocktail Classics,Whole Egg,Powdered Sugar,Sloe gin,Light Cream (if desired),NA,NA
+Angel's Share,Whiskies,Bourbon whiskey,Amaro,Creme de Cassis,Orange Bitters,NA,NA
+Silver Stallion Fizz,Cocktail Classics,Vanilla Ice Cream,Gin,Carbonated Water,NA,NA,NA
+Silver King Cocktail,Cocktail Classics,Egg White,Juice of a Lemon,Gin,Powdered Sugar,Orange Bitters,NA
+American Trilogy,Whiskies,"Brown sugar cube, such as Demerara",Straight rye whiskey,Applejack,Orange twist,NA,NA
+Silver Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Gin,Egg White,NA,NA
+Sherry Twist Cocktail,Cocktail Classics,Cream sherry,Brandy,Dry Vermouth,Triple Sec,Lemon Juice,NA
+Sherry Sangaree,Cocktail Classics,Powdered Sugar,Water,Cream sherry,Carbonated Water,Port,NA
+Sherry Milk Punch,Cocktail Classics,Powdered Sugar,Cream sherry,NA,NA,NA,NA
+Petit Zinc,Vodka,Vodka,Triple Sec,Sweet Vermouth,Orange juice,NA,NA
+Sherry Flip,Cocktail Classics,Whole Egg,Powdered Sugar,Cream sherry,Light Cream (if desired),NA,NA
+Sherry-and-Egg Cocktail,Cocktail Classics,NA,cream sherry,NA,NA,NA,NA
+Americana,Whiskies,Tennessee whiskey,Simple Syrup,Angostura Bitters,Chilled American sparkling wine,NA,NA
+Allegheny,Whiskies,Bourbon whiskey,Dry Vermouth,Blackberry-flavored brandy,Fresh lemon juice,NA,NA
+Sevilla Cocktail,Cocktail Classics,Powdered Sugar,Whole Egg,Port,Light Rum,NA,NA
+September Morn Cocktail,Cocktail Classics,Egg White,Light Rum,Juice of a Lime,Grenadine,NA,NA
+Peach Iced Tea,Vodka,Peach-flavored vodka,Orange curacao,Fresh lemon juice,Honey Syrup,Iced tea,"Peach slice, lemon wheel"
+Fantasio Cocktail,Brandy,Brandy,Dry Vermouth,White creme de menthe,Maraschino liqueur,NA,NA
+Scotch Bird Flyer,Cocktail Classics,Scotch,Egg Yolk,Triple Sec,Powdered Sugar,Light cream,NA
+Algonquin,Whiskies,Straight rye whiskey,Dry Vermouth,Pineapple Juice,NA,NA,NA
+Savannah,Cocktail Classics,Juice of Orange,Gin,White creme de cacao,Egg White,NA,NA
+Pink Rose Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Egg White,Light cream,Gin,NA
+Ninotchka Cocktail,Vodka,Vodka,White creme de cacao,Fresh lemon juice,NA,NA,NA
+Prairie Oyster,Cocktail Classics,Brandy,Worcestershire Sauce,Catsup,Vinegar,Pepper,NA
+Prairie Chicken,Cocktail Classics,Gin,Whole Egg,Pepper and Salt,NA,NA,NA
+Pousse L'Amour,Cocktail Classics,Maraschino,Egg Yolk,Benedictine,Brandy,NA,NA
+Puerto Apple,Cocktail Classics,Applejack,Light Rum,Lime Juice,Orgeat Syrup,NA,NA
+Akogare,Whiskies,Straight rye whiskey,Ginger syrup,"Cold brewed black tea, preferably Japanese",Fresh lemon juice,NA,NA
+Prado,Cocktail Classics,Tequila,Lemon Juice,Maraschino,Egg White,Grenadine,NA
+Port Wine Flip,Cocktail Classics,Whole Egg,Powdered Sugar,Port,Light Cream (if desired),NA,NA
+Port Wine Cobbler,Cocktail Classics,powdered sugar,carbonated water,shaved ice,port,NA,NA
+Nijinksy Blini,Vodka,Vodka,Peach schnapps,Peach puree,Fresh lemon juice,NA,NA
+Affinity Cocktail (whisky),Whiskies,Blended Scotch Whiskey,Dry Vermouth,Sweet Vermouth,Orange Bitters,NA,NA
+Plain Vermouth Cocktail,Cocktail Classics,Dry Vermouth,Sweet Vermouth,Orange Bitters,NA,NA,NA
+Ping-Pong Cocktail,Cocktail Classics,Juice of a Lemon,Egg White,Sloe gin,NA,NA,NA
+Moscow Mule,Vodka,Vodka,Fresh Lime Juice,Ginger beer,Lime wedge,NA,NA
+Phoebe Snow,Cocktail Classics,Dubonnet,Brandy,Anis,NA,NA,NA
+Affinity Cocktail,Whiskies,Straight rye whiskey,Maraschino liqueur,Fresh lemon juice,Orange Bitters,NA,NA
+Peggy Cocktail,Cocktail Classics,Dry Vermouth,Gin,Anis,Dubonnet,NA,NA
+Peach Blow Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Light cream,Gin,Peach,NA
+Peach Blossom,Cocktail Classics,Lemon Juice,Powdered Sugar,Gin,Peach,NA,NA
+Passion Mimosa,Cocktail Classics,Chilled Passion Fruit Juice,Chilled Champagne,NA,NA,NA,NA
+Mocha Express,Vodka,Vodka,Irish cream liqueur,Coffee liqueur,Cold brewed espresso coffee,NA,NA
+Palmer Cocktail,Cocktail Classics,Blended whiskey,Bitters,Lemon Juice,NA,NA,NA
+Mr. 404,Vodka,Vodka,Elderflower liqueur,Fresh lemon juice,Simple Syrup,Aperol,Orange twist
+Mountain Cocktail,Cocktail Classics,Egg White,Lemon Juice,Dry Vermouth,Sweet Vermouth,Blended whiskey,NA
+Morning Glory Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Egg White,Anis,Scotch,NA
+Adderly Cocktail,Whiskies,Straight rye whiskey,Maraschino liqueur,Orange Bitters,Fresh lemon juice,NA,NA
+Fancy Brandy,Brandy,Brandy,Triple Sec,Simple Syrup,Angostura Bitters,NA,NA
+Montreal Gin Sour,Cocktail Classics,Gin,Lemon Juice,Egg White,Powdered Sugar,NA,NA
+Montezuma,Cocktail Classics,Tequila,Madeira,Egg Yolk,Crushed ice,NA,NA
+Miss Jones,Vodka,Vanilla-flavored vodka,Fresh lemon juice,Butterscotch schnapps,Limoncello,NA,NA
+Mint Gin Cocktail,Cocktail Classics,Mint-Flavored Gin,White Port Wine,Dry Vermouth,NA,NA,NA
+Mint Collins,Cocktail Classics,Juice of a Lemon,Mint-Flavored Gin,NA,NA,NA,NA
+Million-Dollar Cocktail,Cocktail Classics,Pineapple Juice,Grenadine,Egg White,Sweet Vermouth,Gin,NA
+Millionaire Cocktail,Cocktail Classics,Egg White,Grenadine,Triple Sec,Blended whiskey,NA,NA
+Academic Review,Whiskies,Irish Whiskey,Applejack,Amaro Nonino,Rye Whiskey,Demerara Syrup,Mole bitters 1 oz
+Milk Punch,Cocktail Classics,Powdered Sugar,Blended whiskey,Milk,NA,NA,NA
+Merry Widow Fizz,Cocktail Classics,Juice of Orange,Juice of a Lemon,Egg White,Powdered Sugar,Sloe gin,NA
+May Blossom Fizz,Cocktail Classics,Grenadine,Juice of a Lemon,Swedish Punch,NA,NA,NA
+Mary Garden Cocktail,Cocktail Classics,Dubonnet,Dry Vermouth,NA,NA,NA,NA
+19th Century,Whiskies,Bourbon whiskey,Fresh lemon juice,White creme de cacao,Lillet Rouge,NA,NA
+Manila Fizz,Cocktail Classics,Gin,Whole Egg,Powdered Sugar,Root Beer,Juice of a Lime,NA
+1626,Whiskies,Bourbon whiskey,Gingerbread liqueur,cherry-flavored brandy,Angostura Bitters,Italian preserved cherry,NA
+Maracuya Mosquito,Vodka,Fresh basil leaves,Vodka,Green Chartreuse,Fresh Lime Juice,Simple Syrup,"Passion Fruit Juice, basil leaf"
+Madras,Vodka,Vodka,Cranberry Juice,Orange juice,Lime wedge,NA,NA
+Absinthe Cocktail,Cocktail Classics,Absinthe Substitute,Water,Old Mr. Boston Anisette,Orange Bitters,NA,NA
+Lychee Lucy,Vodka,Vodka,Lychee liqueur,Fresh orange juice,Pineapple Juice,Angostura Bitters,Canned pitted lychee nut stuffed with a small pineapple leaf
+Vodka Martini,Cocktail Classics,Mr. Boston Vodka,Dry Vermouth,NA,NA,NA,NA
+The Loop,Vodka,Black cherry-flavored vodka,White creme de cacao,Chile Syrup,Grated bittersweet chocolate,NA,NA
+Long Island Iced Tea,Vodka,Vodka,Blanco tequila,Gin,Light Rum,Triple Sec,"Simple Syrup, 1/2 oz"
+Fallen Leaves,Brandy,Calvados,Sweet Vermouth,Dry Vermouth,Brandy,NA,NA
+L'italienne,Vodka,Vodka,Lillet Blanc,Ramazzotti Amaro,Orange Bitters,NA,NA
+Rum Dubonnet,Cocktail Classics,Light Rum,Dubonnet,Lemon Juice,NA,NA,NA
+Ruby Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Egg White,Grenadine,Sloe gin,NA
+Limoncello Manzanilla Marmalade Sour,Vodka,Citrus-flavored vodka,Limoncello,Manzanilla sherry,Fresh lemon juice,Grapefruit marmalade,Orange twist
+Royal Purple Punch,Cocktail Classics,red wine,ginger ale,lemon,whole cloves,NA,NA
+Royal Gin Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Gin,Whole Egg,NA,NA
+Royal Cocktail,Cocktail Classics,Whole Egg,Juice of a Lemon,Powdered Sugar,Gin,NA,NA
+Royal Clover Club Cocktail,Cocktail Classics,Juice of a Lime,Grenadine,Egg Yolk,Gin,NA,NA
+Lights On The Plaza,Vodka,"Cucumber slices, chopped",Fresh lemon juice,Simple Syrup,Acai berry flavored vodka,Black raspberry liqueur,"Sparkling wine, raspberry and cucumber"
+Rococo,Cocktail Classics,Cherry Vodka,Orange Juice,Triple Sec,NA,NA,NA
+Rock & Rye Cooler,Cocktail Classics,Rock and Rye,Vodka,Lime Juice,Bitter lemon soda,NA,NA
+Rock & Rye Cocktail,Cocktail Classics,Rock and Rye,White Port Wine,Dry Vermouth,NA,NA,NA
+Le Paradini,Vodka,Vodka,Raspberry-flavored liqueur,Grand Marnier,Chilled Champagne,NA,NA
+Red Swizzle,Cocktail Classics,Juice of a Lime,Powdered Sugar,Carbonated Water,Gin,Bitters,Grenadine
+Lemon Drop,Vodka,"Lemon wedge, superfine sugar",lemon-flavored vodka,Fresh lemon juice,Simple Syrup,NA,NA
+Rebel Charge,Cocktail Classics,Bourbon,Triple Sec,Orange Juice,Lemon Juice,Egg White,NA
+Rattlesnake Cocktail,Cocktail Classics,Blended whiskey,Egg White,Lemon Juice,Powdered Sugar,Anis,NA
+Ramos Fizz,Cocktail Classics,Juice of a Lemon,Egg White,Powdered Sugar,Gin,Light cream,Triple Sec
+San Francisco,Cocktail Classics,Sloe gin,Sweet Vermouth,Dry Vermouth,Bitters,Orange Bitters,NA
+Sand-Martini Cocktail,Cocktail Classics,Green Chartreuse,Sweet Vermouth,Gin,NA,NA,Sake
+Sake Martini (Sakini),Cocktail Classics,Sake,Gin,NA,NA,NA,NA
+Lemon Crush,Vodka,"Lemon wedge, superfine sugar",Citrus-flavored vodka,Crema di limoncello,Triple Sec,Fresh lemon juice,NA
+Rye Whiskey Cocktail,Cocktail Classics,Bitters,Powdered Sugar,Rye Whiskey,NA,NA,NA
+Leaves Of Grass,Vodka,Aquavit,Old Tom gin,Demerara Syrup,Orange Bitters,Absinthe,Celery stick
+Widow's Dream,Cocktail Classics,Benedictine,Whole Egg,NA,NA,NA,NA
+Whiskey Flip,Cocktail Classics,Whole Egg,Powdered Sugar,Blended whiskey,Light Cream (if desired),NA,NA
+L.A. Sunrise,Vodka,Vodka,Creme de banana,Fresh orange juice,Pineapple Juice,Dark rum,"Lime wheel, maraschino cherry"
+White Rose Cocktail,Cocktail Classics,Gin,Orange Juice,Juice of a Lime,Maraschino,Egg White,NA
+White Plush,Cocktail Classics,Blended whiskey,Milk,Powdered Sugar,NA,NA,NA
+White Elephant,Cocktail Classics,Gin,Sweet Vermouth,Egg White,NA,NA,NA
+Whiskey Toddy (cold),Cocktail Classics,Powdered Sugar,Water,Blended whiskey,NA,NA,NA
+Kretchma Cocktail,Vodka,Vodka,White creme de cacao,Fresh lemon juice,Grenadine,NA,NA
+Whiskey Skin,Cocktail Classics,lump of sugar,boiling water,blended whiskey,lemon peel,NA,NA
+Whiskey Milk Punch,Cocktail Classics,Powdered Sugar,Blended whiskey,NA,NA,NA,NA
+Katana,Vodka,Cucumber slices,Vodka,Sake,Fresh Lime Juice,Simple Syrup,Cucumber
+Ethel Duffy Cocktail,Brandy,Apricot-Flavored Brandy,White creme de menthe,Triple Sec,NA,NA,NA
+Daiquiri,Cocktail Classics,Light Rum,Fresh Lime Juice,Simple Syrup,NA,NA,NA
+Wembley Cocktail,Cocktail Classics,Dry Vermouth,Gin,Apricot-Flavored Brandy,Apple Brandy,NA,NA
+Weep-No-More Cocktail,Cocktail Classics,Juice of a Lime,Dubonnet,Brandy,Maraschino,NA,NA
+Jungle Juice,Vodka,Vodka,Light Rum,Triple Sec,"each Cranberry Juice, orange juice, pineapple juice, lemon juice",Simple Syrup,"Orange wheel, maraschino cherry"
+Wedding Belle Cocktail,Cocktail Classics,Orange Juice,cherry-flavored brandy,Gin,Dubonnet,NA,NA
+Waterloo,Cocktail Classics,Light Rum,Orange Juice,Mandarine Napoleon Liqueur,NA,NA,NA
+Waterbury Cocktail,Cocktail Classics,Powdered Sugar,Juice of a Lemon,Egg White,Brandy,Grenadine,NA
+Washington Cocktail,Cocktail Classics,Dry Vermouth,Brandy,Bitters,Sugar Syrup,NA,NA
+The Jamaican Ten Speed,Vodka,Vodka,Melon liqueur,Creme de banana,Coconut-flavored rum,half-and-half,NA
+Twin Six Cocktail,Cocktail Classics,Gin,Sweet Vermouth,Grenadine,Orange Juice,Egg White,NA
+Jackie-O,Vodka,"Lime wedge, pink sanding sugar",each Citrus-flavored vodka and orange-flavored vodka,Creme de Cassis,Apricot nectar,each Fresh lemon juice and cranberry juice,"Chilled Champagne,  Orange half-wheel, lime wheel"
+Tropical Heart,Cocktail Classics,Hot Shot Tropical Fruit Liqueur,Hot Apple Cider,NA,NA,NA,NA
+Trois Rivieres,Cocktail Classics,Canadian whisky,Dubonnet,Triple Sec,NA,NA,NA
+Tovarich Cocktail,Cocktail Classics,Vodka,Kummel,Juice of a Lime,NA,NA,NA
+Italian Screwdriver,Vodka,"Lime wedge, superfine sugar",Citrus-flavored vodka,Orange juice,Grapefruit Juice,Ginger ale,Lime wheel
+T.N.T. Cocktail No. 2,Cocktail Classics,Tequila,Tonic,NA,NA,NA,NA
+T.N.T. Cocktail No. 1,Cocktail Classics,Blended whiskey,Anis,NA,NA,NA,NA
+Ibiza,Vodka,Orange-flavored vodka,Campari,Grapefruit Juice,Pomegranate molasses,Peach schnapps,"Apple schnapps, grapefruit twist"
+Thunder,Cocktail Classics,Powdered Sugar,Egg Yolk,Brandy,Cayenne Pepper,NA,NA
+Huntsman Cocktail,Vodka,Vodka,Jamaica Rum,Fresh Lime Juice,Simple Syrup,NA,NA
+Tequila Fizz,Cocktail Classics,Tequila,Grenadine,Lemon Juice,Egg White,NA,NA
+Humpty Dumpty,Vodka,Vodka,Orange juice,Galliano,Whole Egg,Peychaud's Bitters,NA
+Tequila Cocktail,Cocktail Classics,Tequila,Juice of a Lemon,Grenadine,Egg White,NA,NA
+Temptation Cocktail,Cocktail Classics,Blended whiskey,Triple Sec,Anis,Dubonnet,NA,NA
+Tchoupitolas Street Guzzle,Cocktail Classics,Light Rum,Ginger beer,NA,NA,NA,NA
+Tahitian Tea,Cocktail Classics,Gin,Light Rum,Vodka,Hot Shot Tropical Fruit Liqueur,7-Up,each Cranberry Juice and orange juice
+Limey,Cocktail Classics,Light Rum,Lime Liqueur,Triple Sec,Lime Juice,NA,NA
+Headless Horseman,Vodka,Vodka,Angostura Bitters,Ginger ale,NA,NA,NA
+Love Cocktail,Cocktail Classics,Sloe gin,Egg White,Lemon Juice,Raspberry Juice,NA,NA
+Los Angeles Cocktail,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Whole Egg,Sweet Vermouth,Blended whiskey,NA
+Long Island Tea,Cocktail Classics,Vodka,Gin,Light Rum,Tequila,Juice of a Lemon,NA
+Harvey Wallbanger,Vodka,Vodka,Fresh orange juice,Galliano,NA,NA,NA
+Lime Giant,Cocktail Classics,Lime Vodka,Lemon-lime soda,NA,NA,NA,NA
+Lil Naue,Cocktail Classics,Brandy,Port,Apricot-Flavored Brandy,Powdered Sugar,Egg Yolk,NA
+Harrington,Vodka,Vodka,Triple Sec,Green Chartreuse,NA,NA,NA
+El Profesor,Brandy,Pisco,Punt e Mes,Benedictine,Aromatic bitters,Lemon twist,NA
+Leap Year Cocktail,Cocktail Classics,Gin,Orange Flavored Gin,Sweet Vermouth,Lemon Juice,NA,NA
+Lasky Cocktail,Cocktail Classics,Grape Juice,Swedish Punch,Gin,NA,NA,NA
+Lady Love Fizz,Cocktail Classics,Powdered Sugar,Juice of a Lemon,Egg White,Gin,Light cream,NA
+Handball Cooler,Vodka,Vodka,Soda water,Orange juice,NA,NA,NA
+Hyatt's Jamaican Banana,Cocktail Classics,Light Rum,White creme de cacao,Creme de banana,Vanilla Ice Cream,half-and-half,Banana
+H.P.W. Cocktail,Cocktail Classics,Dry Vermouth,Sweet Vermouth,Gin,NA,NA,NA
+Hot Shot Margarita,Cocktail Classics,Tequila,Hot Shot Tropical Fruit Liqueur,Lemon or Lime Juice,NA,NA,NA
+The Groupie,Vodka,Lemon wedges,Superfine sugar,Citrus-flavored vodka,NA,NA,NA
+Hot Brandy Flip,Cocktail Classics,Whole Egg,Powdered Sugar,Brandy,NA,NA,NA
+Grape Nehi,Vodka,Vodka,Raspberry-flavored liqueur,Fresh lemon juice,NA,NA,NA
+Hole-in-One Cocktai,Cocktail Classics,Scotch,Vermouth,Lemon Juice,Orange Bitters,NA,NA
+Grapefruit Gimlet Royale,Vodka,Vodka,Fresh grapefruit juice,Fresh Lime Juice,Simple Syrup,Chilled Champagne,NA
+Hair Raiser,Cocktail Classics,100-proof Vodka,Rock and Rye,Lemon Juice,NA,NA,NA
+Godmother,Vodka,Vodka,Amaretto,NA,NA,NA,NA
+Green Opal,Cocktail Classics,Gin,Anisette,Anis,NA,NA,NA
+Green Hornet (Dry),Cocktail Classics,Lime Vodka,Lemon-lime soda,NA,NA,NA,Powdered Sugar
+Green Fizz,Cocktail Classics,Powdered Sugar,Egg White,Juice of a Lemon,Gin,Green creme de menthe,NA
+Godchild,Vodka,Vodka,Amaretto,Heavy cream,NA,NA,NA
+Grape Vodka Froth,Cocktail Classics,Vodka,Grape Juice,Egg White,Lemon Juice,NA,NA
+Grapefruit Nog,Cocktail Classics,Brandy,Grapefruit Juice,Lemon Juice,Honey,Whole Egg,NA
+Golden Slipper,Cocktail Classics,Yellow Chartreuse,Apricot-Flavored Brandy,NA,NA,NA,NA
+Golden Freindship,Cocktail Classics,Amaretto,Sweet Vermouth,Light Rum,NA,NA,NA
+Golden Frappe,Cocktail Classics,Orange Juice,Lemon Juice,Sugar,Port,NA,NA
+Glass Tower,Vodka,Vodka,Peach schnapps,White rum,Triple Sec,Sambuca,"Lime soda, orange wheel, maraschino cherry"
+Golden Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Gin,Egg Yolk,NA,NA
+Gloom Lifter,Cocktail Classics,Blended whiskey,Brandy,Juice of a Lemon,Raspberry Syrup,Sugar,Egg White
+Glogg,Cocktail Classics,"Wine (Port, Cream Sherry, Claret, Burgundy, or Madeira)",Dried Orange Peel,Cinnamon sticks,NA,cloves,NA
+Georgia Peach,Vodka,Vodka,Peach schnapps,Grenadine,NA,NA,NA
+Georgia Mule,Vodka,"Peach slice, skinned",Vodka,Fresh lemon juice,Peach bitters,Ginger beer,Peach slice
+Gentle Ben,Vodka,Vodka,Gin,Blanco tequila,NA,"Orange wheel, maraschino cherry",NA
+East India Cocktail No. 1,Brandy,Brandy,Jamaica Rum,Triple Sec,Pineapple Juice,Angostura Bitters,"Lemon twist, maraschino cherry"
+General Harrison's Eggnog,Cocktail Classics,Whole Egg,Powdered Sugar,Red wine,NA,NA,NA
+Gables Collins,Vodka,Vodka,Creme de noyaux,Fresh lemon juice,Pineapple Juice,Soda water,"Lemon wheel, pineapple chunk"
+Frozen Brandy and Rum,Cocktail Classics,Brandy,Light Rum,Lemon Juice,Egg Yolk,Powdered Sugar,NA
+Frozen Apple,Cocktail Classics,Applejack,Lime Juice,Sugar,Egg White,NA,NA
+Frisky Witch,Vodka,Vodka,Sambuca,Black licorice stick,NA,NA,NA
+Froth Blower Cocktail,Cocktail Classics,Egg White,Gin,Grenadine,NA,NA,NA
+French Martini,Vodka,Vodka,Black raspberry liqueur,Pineapple Juice,NA,NA,NA
+Flatiron Martini,Vodka,Splash triple sec,Orange-flavored vodka,Lillet Blanc,NA,NA,NA
+Favourite Cocktail,Cocktail Classics,Apricot-Flavored Brandy,Dry Vermouth,Lemon Juice,Gin,NA,NA
+Electric Jam,Vodka,Vodka,Blue curacao,Simple Syrup,Fresh lemon juice,Lime soda,NA
+Fairy Belle Cocktail,Cocktail Classics,Egg White,Grenadine,Apricot-Flavored Brandy,Gin,NA,NA
+Duke Cocktail,Cocktail Classics,Triple Sec,Orange Juice,Lemon Juice,Maraschino,Whole Egg,Chilled Champagne
+Dreamy Dorini Smoking Martini,Vodka,Vodka,"Smoky Scotch, such as Laphroaig",Pastis,NA,NA,NA
+Dubonnet Highball,Cocktail Classics,Dubonnet,ginger ale,carbonated water,NA,NA,NA
+Dubonnet Fizz,Cocktail Classics,Juice of Orange,Juice of a Lemon,cherry-flavored brandy,Dubonnet,NA,NA
+Dubonnet Cocktail,Cocktail Classics,Dubonnet,Gin,Orange Bitters (if desired),NA,NA,NA
+Doctor Cook,Cocktail Classics,Gin,Lemon Juice,Maraschino,Egg White,NA,NA
+Desert Sunrise,Vodka,Vodka,Fresh orange juice,Pineapple Juice,Grenadine,NA,NA
+Dillatini,Cocktail Classics,Gin,Dry Vermouth,NA,NA,NA,NA
+Devil's Cocktail,Cocktail Classics,Lemon Juice,Port,Dry Vermouth,NA,NA,NA
+Derby Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Whole Egg,Scotch,Triple Sec,NA
+Cubeltini,Vodka,Cucumber slices,Fresh mint leaves,Simple Syrup,Vodka,Fresh Lime Juice,Fresh mint sprig
+Crocodile Cooler,Vodka,Citrus-flavored vodka,Melon liqueur,Triple Sec,Simple Syrup,Fresh lemon juice,"Lime soda, pineapple wedge, maraschino cherry or lime wheel"
+Cosmopolitan,Vodka,Vodka,Fresh Lime Juice,Triple Sec,Cranberry Juice,Lime wheel,NA
+Dream Cocktail,Brandy,Brandy,Triple Sec,Anisette,NA,NA,NA
+Jean Lafitte Cocktail,Cocktail Classics,Gin,Triple Sec,Anis,Powdered Sugar,Egg Yolk,NA
+Japanese Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Blended whiskey,Port,Egg White,NA
+Citronella Cooler,Vodka,Citrus-flavored vodka,Fresh Lime Juice,Lemonade,Cranberry Juice,Lime wedge,NA
+North Pole Cocktail,Cocktail Classics,Egg White,Lemon Juice,Maraschino,Gin,NA,NA
+The Cinquecento,Vodka,Bison grass vodka (Zubrowka),Benedictine,Campari,Fresh grapefruit juice,Angostura Bitters,Grapefruit twist
+New Orleans Gin Fizz,Cocktail Classics,Juice of a Lemon,Juice of a Lime,Powdered Sugar,Egg White,Gin,"Light cream, 1/2 oz"
+Napoleon,Cocktail Classics,Gin,Curacao,Dubonnet,NA,NA,NA
+Zombie,Rum - Daiquiris,Gold rum,151-Proof Rum,Light Rum,"each Fresh Lime Juice, lemon juice, pineapple juie, and passion fruit syrup",Demerara Syrup,Tiki (such as Bittermen's 'Elemakule) or Angostura bitters (optional) Garnish: Fresh mint sprig
+Kiss the Boys Goodbye,Cocktail Classics,Sloe gin,Brandy,Egg White,Juice of a Lemon,NA,NA
+X.Y.Z. Cocktail,Rum - Daiquiris,Light Rum,Triple Sec,Fresh lemon juice,NA,NA,NA
+K.G.B. Cocktail,Cocktail Classics,Kummel,Gin,Apricot-Flavored Brandy,Lemon Juice,NA,NA
+Eye-Opener,Cocktail Classics,Egg Yolk,Powdered Sugar,Anis,Triple Sec,White creme de cacao,Light Rum
+Wiki Waki Woo,Rum - Daiquiris,Light Rum,151-Proof Rum,"each Vodka, tequila blanco, triple sec",Amaretto,"each Fresh orange juice, pineapple juice, cranberry juice","Orange wheel, maraschino cherry"
+Elk's Own Cocktail,Cocktail Classics,Egg White,Blended whiskey,Port,Juice of a Lemon,Powdered Sugar,NA
+Eggnog Supreme,Cocktail Classics,Medium Eggs,Sugar,Whole milk,"Heavy Cream, Whipped",Cognac,Powdered Nutmeg
+Egg Sour,Cocktail Classics,Whole Egg,Powdered Sugar,Juice of a Lemon,Brandy,Triple Sec,NA
+White Lion Cocktail,Cocktail Classics,Light Rum,Fresh lemon juice,Simple Syrup,Grenadine,Angostura Bitters,NA
+White Lily Cocktail,Rum - Daiquiris,Light Rum,Triple Sec,Gin,Anisette,NA,NA
+Ice Cream Flip,Rum - Daiquiris,Whole Egg,Maraschino,Triple Sec,NA,NA,NA
+Outrigger,Cocktail Classics,Peach-flavored brandy,Lime Vodka,Pineapple Juice,NA,NA,NA
+Opera Cocktail,Cocktail Classics,Maraschino,Dubonnet,Gin,NA,NA,NA
+Virginia Dare,Rum - Daiquiris,Ripe pear,Dark rum,Benedictine,Angostura Bitters,NA,NA
+Opening Cocktail,Cocktail Classics,Grenadine,Sweet Vermouth,Blended whiskey,NA,NA,NA
+Queen Bee,Cocktail Classics,Lime Vodka,Coffee-flavored brandy,Cream sherry,NA,NA,NA
+Van Vleet,Rum - Daiquiris,Light Rum,Maple Syrup,Fresh lemon juice,NA,NA,NA
+Zaza Cocktail,Cocktail Classics,Gin,Dubonnet,NA,NA,NA,NA
+The Vacation Cocktail,Rum - Daiquiris,Peeled and chopped fresh ginger,Fresh Lime Juice,"each Simple Syrup, light rum, dark rum",Mango juice,"each Cranberry Juice, orange juice, spiced rum",Mango slice
+Dolores,Brandy,"Brandy, preferably Spanish",Cherry liqueur,White or dark creme de cacao,Egg White,Freshly grated nutmeg,NA
+Vesuvio,Cocktail Classics,Light Rum,Juice of a Lemon,Powdered Sugar,Egg White,Sweet Vermouth,NA
+Urban Anxiety,Rum,Cachaca,Sweet Vermouth,Cynar,Angostura Bitters,"Grapefruit twist, flamed",NA
+Virgin,Cocktail Classics,Gin,White creme de menthe,Forbidden Fruit,NA,NA,NA
+Tropica Cocktail,Rum - Daiquiris,Light Rum,Pineapple Juice,Fresh grapefruit juice,Grenadine,Pineapple wedge,NA
+Vermouth Cassis,Cocktail Classics,Creme de Cassis,Dry Vermouth,NA,NA,NA,NA
+Verboten,Cocktail Classics,Gin,Forbidden Fruit,Orange Juice,Lemon Juice,NA,NA
+Velvet Hammer No. 2,Cocktail Classics,Strega,White creme de cacao,Light cream,NA,NA,NA
+Velvet Hammer No. 1,Cocktail Classics,Vodka,Creme de Cacao,Light cream,NA,NA,NA
+Ulanda Cocktail,Cocktail Classics,Gin,Triple Sec,Anis,NA,NA,NA
+Torridora Cocktail,Rum - Daiquiris,Light Rum,Coffee-flavored brandy,half-and-half,151-Proof Rum,NA,NA
+Boston Sour,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Blended whiskey,Egg White,NA,NA
+Three Miller Cocktail,Rum - Daiquiris,Fresh cherry tomatoes,Dark rum,Fresh Lime Juice,Simple Syrup,Angostura Bitters,NA
+Bird-of-Paradise Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Egg White,Grenadine,Gin,NA
+Biffy Cocktail,Cocktail Classics,Juice of a Lemon,Swedish Punch,Gin,NA,NA,NA
+Between-The-Sheets Cocktail,Cocktail Classics,Juice of a Lemon,Brandy,Triple Sec,Light Rum,NA,NA
+Third-Rail Cocktail,Rum - Daiquiris,Light Rum,Apple Brandy,Brandy,Anisette,NA,NA
+Bentley,Cocktail Classics,Apple Brandy,Dubonnet,NA,NA,NA,NA
+Tahiti Club,Rum - Daiquiris,Light Rum,Fresh lemon juice,Fresh Lime Juice,Pineapple Juice,Maraschino liqueur,Lemon wheel
+Barton Special,Cocktail Classics,Applejack,Scotch,Gin,NA,NA,NA
+Barnaby's Buffalo Blizzard,Cocktail Classics,White creme de cacao,Vodka,Galliano,NA,Grenadine,Whipped cream and 3/4 oz
+Susie Taylor,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Ginger ale,NA,NA,NA
+Baltimore Bracer,Cocktail Classics,Anisette,Brandy,Egg White,NA,NA,NA
+Bachelor's Bait Cocktail,Cocktail Classics,Gin,Egg White,Orange Bitters,Grenadine,NA,NA
+Bushranger,Cocktail Classics,Light Rum,Dubonnet,Bitters,NA,NA,NA
+Sunset at Gowanus,Rum - Daiquiris,Dark rum,Fresh Lime Juice,Maple Syrup,Brandy,Yellow Chartreuse,NA
+Bulldog Highballl,Cocktail Classics,Juice of Orange,Gin,NA,NA,NA,NA
+Bucks Fizz (Mimosa),Cocktail Classics,Orange Juice,Chilled Champagne,NA,NA,NA,NA
+Buckjones,Cocktail Classics,Light Rum,Sweet Sherry,Juice of a Lime,NA,NA,NA
+Stormy Colada,Rum - Daiquiris,Dark rum,Pineapple Juice,Ginger beer,NA,NA,NA
+Bronx SIlver Cocktail,Cocktail Classics,Juice of Orange,Egg White,Dry Vermouth,Gin,NA,NA
+Bronx Golden Cocktail,Cocktail Classics,Gin,Sweet Vermouth,Dry Vermouth,Orange,NA,NA
+Stone Wall,Rum - Daiquiris,thin Peeled fresh ginger,Demerara Syrup,Fresh apple cider,Light Rum,Jamaican ginger beer,"Green apple slice, lime wedge"
+Depth Bomb,Brandy,Apple Brandy,Brandy,Fresh lemon juice,Grenadine,NA,NA
+Stone Cocktail,Rum - Daiquiris,Dry Sherry,Light Rum,Sweet Vermouth,NA,NA,NA
+Almeria,Cocktail Classics,17-year-old J. Wray and Nephew Ltd. Rum,Coffee-flavored liqueur,Egg White,NA,NA,NA
+Aunt Jemima,Cocktail Classics,Brandy,White creme de cacao,Benedictine,NA,NA,NA
+Spanish Town Cocktail,Rum - Daiquiris,Light Rum,Triple Sec,NA,NA,NA,NA
+Apricot Lady,Cocktail Classics,Light Rum,Apricot-Flavored Brandy,Triple Sec,Lime Juice,Egg White,NA
+Apricot Anise Collins,Cocktail Classics,Gin,Apricot-Flavored Brandy,Anisette,Lemon Juice,NA,NA
+Apple Rum Rickey,Cocktail Classics,Applejack,Light Rum,Lime,NA,NA,NA
+Sloppy Joe's Cocktail No. 1,Rum - Daiquiris,Light Rum,Dry Vermouth,Triple Sec,Fresh Lime Juice,Grenadine,NA
+Applejack Punch,Cocktail Classics,Applejack,Grenadine,Orange Juice,NA,NA,Whole Egg
+Brandy Flip,Cocktail Classics,Whole Egg,Powdered Sugar,Brandy,Light Cream (if desired),NA,NA
+Sir Walter Cocktail,Rum - Daiquiris,Light Rum,Brandy,Grenadine,Triple Sec,Fresh lemon juice,NA
+Saxon Cocktail,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Grenadine,NA,NA,NA
+Boston Bullet,Cocktail Classics,Gin,Dry Vermouth,NA,NA,NA,NA
+Sargasso,Rum - Daiquiris,Aged rhum agricole,Dry Sherry,Aperol,Angostura Bitters,Orange twist,NA
+Santiago Cocktail,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Simple Syrup,Grenadine,NA,NA
+Black Velvet,Cocktail Classics,Chilled Stout,Chilled Champagne,NA,NA,NA,NA
+Saint Lucy Bracer,Rum - Daiquiris,Dark rum,Butterscotch schnapps,Sweet Vermouth,Angostura Bitters,"Edible flower, such as nasturtium",NA
+Applecar,Cocktail Classics,Applejack,Triple Sec,Lemon Juice,NA,NA,NA
+Apple Blow Fizz,Cocktail Classics,Egg White,Juice of a Lemon,Powdered Sugar,Apple Brandy,NA,NA
+Antoine Special,Cocktail Classics,Dubonnet,Dry Vermouth,NA,NA,NA,NA
+Ante,Cocktail Classics,Apple Brandy,Triple Sec,Dubonnet,NA,NA,NA
+S & V,Rum - Daiquiris,Light Rum,Creole Shrubb (rum-based orange liqueur),Ruby port,Fresh Lime Juice,Lime wheel,NA
+Rum Toddy (Cold),Rum - Daiquiris,Light or dark rum,Water,Simple Syrup,NA,NA,Brandy
+Deauville Cocktail,Brandy,Brandy,Apple Brandy,Triple Sec,Fresh lemon juice,NA,Dry Vermouth
+Allies Cocktail,Cocktail Classics,Dry Vermouth,Gin,Kummel,NA,NA,NA
+Rum Swizzle,Rum - Daiquiris,Light or dark rum,Fresh Lime Juice,Simple Syrup,Angostura Bitters,Soda water,NA
+A. J.,Cocktail Classics,Applejack,Grapefruit Juice,NA,NA,NA,NA
+After Supper Cocktail,Cocktail Classics,Apricot-Flavored Brandy,Triple Sec,Lemon Juice,NA,NA,NA
+Rum Sour,Rum - Daiquiris,Light Rum,Fresh lemon juice,Simple Syrup,NA,NA,NA
+Acapulco,Cocktail Classics,Light Rum,Lime Juice,Triple Sec,Sugar,Egg White,NA
+Absinthe Drip Cocktail,Cocktail Classics,Anis,Sugar,NA,NA,NA,NA
+Ambrosia,Cocktail Classics,Applejack,Brandy,Triple Sec,NA,Chilled Champagne,NA
+Rum Screwdriver,Rum - Daiquiris,Light Rum,Orange juice,NA,NA,NA,NA
+Rum Rickey,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Soda water,NA,NA,NA
+Scotch Cocktail,Cocktail Classics,Old Mr. Boston Creme de Menthe (White),Desmond & Duff Scotch Whisky,NA,NA,NA,NA
+Rum Relaxer,Rum - Daiquiris,Light Rum,Pineapple Juice,Grenadine,NA,"Orange wheel, maraschino cherry",NA
+Rum Old-Fashioned,Rum - Daiquiris,Light Rum,151-Proof Rum,Simple Syrup,Angostura Bitters,Lemon twist,NA
+Rum Martini,Rum - Daiquiris,Light Rum,Dry Vermouth,Lemon twist,NA,NA,NA
+Rum Highball,Rum - Daiquiris,Light or dark rum,Ginger ale or soda water,Lemon twist,NA,NA,NA
+Rum Fix,Rum - Daiquiris,Light Rum,Fresh lemon or lime juice,Simple Syrup,NA,NA,NA
+Rum Daisy,Rum - Daiquiris,Light Rum,Fresh lemon juice,Simple Syrup,Grenadine,Fresh seasonal fruit,NA
+D'artagnan,Brandy,Armagnac,Grand Marnier,Simple Syrup,Orange juice,Chilled Champagne,orange zest
+Rum Cooler,Rum - Daiquiris,Light Rum,Simple Syrup,Soda water,NA,Orange and/or lemon zest,NA
+Rum Collins,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Simple Syrup,NA,"Lemon wheel, maraschino cherry",NA
+Seaboabd,Cocktail Classics,Old Mr. Boston Blended Whiskey,Old Mr. Boston Dry Gin,Lemon Juice,Powdered Sugar,NA,NA
+Rum Cobbler,Rum - Daiquiris,Light Rum,Simple Syrup,Soda water,NA,NA,NA
+Robson Cocktail,Rum - Daiquiris,Jamaica Rum,Fresh lemon juice,Fresh orange juice,Grenadine,NA,NA
+Rio Fix,Rum - Daiquiris,Absinthe or pastis,Cachaca,Maraschino liqueur,Fresh Lime Juice,Pineapple Juice,NA
+Ringo Starr,Rum - Daiquiris,Red grapes,Lemon,Fresh mint leaves,Sugar cube,African rum,NA
+Restless Native,Rum - Daiquiris,Coconut rum,White creme de cacao,Fresh Lime Juice,NA,NA,Light Rum
+Quarter Deck Cocktail,Rum - Daiquiris,Light Rum,Cream sherry,Fresh Lime Juice,NA,NA,NA
+Quaker's Cocktail,Rum - Daiquiris,Light Rum,Brandy,Fresh lemon juice,Raspberry Syrup,NA,NA
+Puerto Rican Rum Daisy,Rum - Daiquiris,Dark rum,Orange curacao,Fresh lemon juice,each Orange juice and simple syrup,Angostura Bitters,"Freshly grated nutmeg, orange wheel"
+Cuban Cocktail No. 2,Brandy,Brandy,Light Rum,Apricot-Flavored Brandy,Fresh Lime Juice,NA,NA
+Prohibition Punch,Rum - Daiquiris,Dark rum,Grand Marnier,Passion Fruit Juice,Cranberry Juice,Fresh lemon juice,Champagne
+Prairie Oyster Cocktail,Cocktail Classics,Old Mr. Boston Five Star Brandy,Worcestershire Sauce,Tomato Catsup,Vinegar,Pepper,"Egg Yolk, 1 oz"
+Poker Cocktail,Rum - Daiquiris,Light Rum,Sweet Vermouth,NA,NA,NA,NA
+Planter's Punch No. 2,Rum - Daiquiris,Light Rum,Orange juice,"each Fresh Lime Juice, jamaica rum, grenadine",Pineapple Juice,"each Fresh lemon juice, triple sec","Lemon, orange, and pineapple slices; maraschino cherry; fresh mint sprig dipped in sugar"
+Planter's Punch No. 1,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Simple Syrup,Soda water,Grenadine,"Lemon, orange, and pineapple slices; maraschino cherry"
+Planter's Cocktail,Rum - Daiquiris,Jamaica Rum,Fresh lemon juice,Simple Syrup,NA,NA,NA
+Pink Paradise,Rum - Daiquiris,Coconut-flavored rum,Amaretto,Cranberry Juice,Pineapple Juice,"Pineapple wedge, maraschino cherry",NA
+Pink Creole,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Grenadine,half-and-half,Rum-soaked black cherry,NA
+Pineapple Fizz,Rum - Daiquiris,Light Rum,Pineapple Juice,Simple Syrup,NA,NA,NA
+Pineapple Cocktail,Rum - Daiquiris,Light Rum,Pineapple Juice,Fresh lemon juice,NA,NA,NA
+Pearl Button,Rum - Daiquiris,Cachaca (Brazilian rum),Lillet Blanc,Fresh Lime Juice,NA,"Pineapple wedge, maraschino cherry",NA
+The Crux,Brandy,Dubonnet,Triple Sec,Brandy,Fresh lemon juice,Orange twist,NA
+Paris When It Sizzles,Rum - Daiquiris,Elderflower liqueur,Dark rum,Fresh Lime Juice,Angostura Bitters,Lime wedge,NA
+Palmetto Cocktail,Rum - Daiquiris,Light Rum,Dry Vermouth,Angostura Bitters,NA,NA,NA
+Paddington,Rum - Daiquiris,Absinthe,Light Rum,Lillet Blanc,Fresh grapefruit juice,Fresh lemon juice,"Orange marmalade, grapefruit twist"
+The Old Cuban,Rum - Daiquiris,mint leaves,Simple Syrup,Fresh Lime Juice,Dark rum,Angostura Bitters,"Champagne, chopped fresh mint"
+"Oh, Gosh!",Rum - Daiquiris,Light Rum,Triple Sec,Fresh Lime Juice,NA,NA,NA
+Night Cap,Rum - Daiquiris,Light Rum,Simple Syrup,Warm milk,NA,NA,NA
+New Orleans Buck,Rum - Daiquiris,Light Rum,Fresh orange juice,Fresh lemon juice,NA,NA,NA
+Nevada Cocktail,Rum - Daiquiris,Light Rum,Grapefruit Juice,Fresh Lime Juice,Simple Syrup,Angostura Bitters,NA
+Moonquake Shake,Rum - Daiquiris,Dark rum,Coffee-flavored brandy,Fresh lemon juice,NA,NA,NA
+Monkey Wrench,Rum - Daiquiris,Light Rum,Grapefruit Juice,NA,NA,NA,NA
+Creme De Cafe,Brandy,Coffee-flavored brandy,Light Rum,Anisette,half-and-half,NA,NA
+Margarita,Cocktail Classics,Blanco tequila,Cointreau or triple sec,Fresh Lime Juice,NA,NA,NA
+Mojito,Rum - Daiquiris,Lime wedges,Fresh mint leaves,Simple Syrup,Light Rum,Soda water,Fresh mint sprig
+Champagne Flamingo,Vodka,Vodka,Campari,Chilled Champagne,NA,NA,NA
+Thunder and Lightning Cocktail,Cocktail Classics,Egg Yolk,Powdered Sugar,Old Mr. Boston Five Star Brandy,NA,NA,NA
+Casco Bay Lemonade,Vodka,Citrus-flavored vodka,Simple Syrup,Fresh lemon juice,Cranberry Juice,Lemon-lime soda,Lemon wheel
+Caribbean Cruise,Vodka,Vodka,Light Rum,Coconut-flavored rum,Grenadine,Pineapple Juice,"Pineapple wedge, maraschino cherry"
+Cappuccino Cocktail,Vodka,Vodka,Coffee-flavored brandy,half-and-half,Vodka,Cranberry Juice,Lime wedge
+Cape Codder,Tequila,Vodka,Cranberry Juice,Lime wedge,Old Mr. Boston Anisette,Old Mr. Boston Five Star Brandy,Egg White
+Baltimore Bracer Cocktail,Cocktail Classics,Old Mr. Boston Anisette,Old Mr. Boston Five Star Brandy,Egg White,NA,NA,NA
+Caesar,Vodka,"Lemon wedge, celery salt",Vodka,Tomato-clam juice,Prepared horseradish,"each Worcestershire Sauce, salt, ground black pepper","Celery stalk, lemon wedge"
+Bull Shot,Vodka,Vodka,Cold beef bouillon,Worcestershire Sauce,Salt,Freshly ground black pepper,NA
+Bullfrog,Vodka,Vodka,Lemonade,Lime wheel,NA,NA,NA
+Boston Gold,Vodka,Vodka,Creme de banana,Fresh orange juice,NA,NA,NA
+Corpse Reviver No. 1,Brandy,Cognac,"Calvados, apple brandy, or applejack",Sweet Vermouth,NA,NA,NA
+Thanksgiving Special Cocktail,Cocktail Classics,Old Mr. Boston Apricot Flavored Brandy,Old Mr. Boston Dry Gin,Dry Vermouth,Lemon Juice,NA,NA
+Tequini Cocktail,Cocktail Classics,Old Mr. Boston Tequila,Dry Vermouth,Bitters,NA,NA,NA
+Bordeaux Cocktail,Vodka,Citrus-flavored vodka,Lillet Blanc,Lemon twist,NA,NA,NA
+Bolshoi Punch,Vodka,Vodka,Fresh lemon juice,Simple Syrup,Light Rum,Creme de Cassis,NA
+Blue Lagoon,Vodka,Vodka,Blue curacao,Fresh lemon juice,Simple Syrup,Maraschino cherry,NA
+Stinger Cocktail,Cocktail Classics,Old Mr. Boston White Creme de Menthe,Old Mr. Boston Five Star Brandy,NA,NA,NA,NA
+Bloody Mary,Vodka,Vodka,Tomato Juice,Fresh Lime Juice,Worcestershire Sauce,hot red pepper sauce,"Freshly ground black pepper to taste, lime wedge, celery stalk"
+Spritzer Highball,Cocktail Classics,chilled Rhine wine or Sauterne,carbonated water,NA,NA,NA,NA
+Bloody Bull,Vodka,Vodka,Tomato Juice,Cold beef bouillon,NA,NA,NA
+The Blood Orange,Vodka,Orange-flavored vodka,Campari,Blood or navel orange half-wheel,NA,NA,NA
+Black Russian,Vodka,Vodka,Coffee liqueur,NA,NA,NA,NA
+Black Magic,Vodka,Vodka,Coffee liqueur,Fresh lemon juice,NA,NA,NA
+Black Cherry Chocolate,Vodka,Black cherry-flavored vodka,White chocolate liqueur,Black cherry juice,NA,NA,NA
+Victor Collins,Cocktail Classics,Old Mr. Boston Vodka,Unsweetened Grape Juice,Lemon Juice,Powdered Sugar,NA,NA
+Snowball Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Old Mr. Boston Anisette,Sweet Cream,NA,NA,NA
+Violet Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Old Mr. Boston Dry Gin,Creme Yvette,NA,NA
+Bikini,Vodka,Vodka,Light Rum,Fresh lemon juice,Milk,Simple Syrup,Lemon twist
+Cold Deck Cocktail,Brandy,Brandy,Sweet Vermouth,White creme de menthe,NA,NA,NA
+The Big Crush,Vodka,Raspberry-flavored vodka,Triple Sec,Raspberry-flavored liqueur,Fresh Lime Juice,Chilled Champagne,Fresh blackberries and raspberries
+Bianca,Vodka,"Lime wedge, superfine sugar",Citrus-flavored vodka,Pomegranate juice,Fresh Lime Juice,Simple Syrup,"Fresh lemon juice, lemon twiste, fresh pomegranate seeds"
+Bella Fragolia,Vodka,"Strawberry, chopped",Fresh basil leaves,Vodka,Fresh lemon juice,Simple Syrup,"Soda water, strawberry slide, fresh basil leaf"
+Beer Buster,Vodka,Vodka,Chilled beer or ale,Hot red pepper sauce,NA,NA,NA
+Basil 8,Vodka,Fresh basil leaves,White grapes,Vodka,Fresh Lime Juice,"each Simple Syrup, angostura bitters",Ginger ale
+Shamrock Cocktail,Cocktail Classics,Irish Whiskey,Dry Vermouth,Old Mr. Boston Green Creme de Menthe,NA,NA,NA
+Aqueduct,Vodka,Vodka,Fresh Lime Juice,White curacao or triple sec,Apricot-Flavored Brandy,Orange twist,NA
+Scotch Whisky Highball,Cocktail Classics,Desmond & Duff Scotch Whisky,ginger ale,lemon twist,NA,NA,NA
+Alfie Cocktail,Vodka,lemon-flavored vodka,Pineapple Juice,Triple Sec,NA,NA,NA
+Admiral Perry,Vodka,Pear-flavored vodka,Cinnamon schnapps,Dry Vermouth,White creme de cacao,Thin pear slice,NA
+Yellow Rose Of Texas,Tequila,Blanco tequila,Fresh lemon juice,Simple Syrup,Yellow Chartreuse,Rose water,NA
+St. Patrick's Day Cocktail,Cocktail Classics,Old Mr. Boston Green Creme de Menthe,Green Chartreuse,Irish Whiskey,Bitters,NA,NA
+Purple Twister,Cocktail Classics,Old Mr. Boston Grape Vodka,cola,lemon slice,NA,NA,NA
+Waiting On Summer,Tequila,Cucumber,Fresh sage leaves,Fresh Lime Juice,Blanco tequila,Simple Syrup,"Ginger ale, strawberry slice"
+Cognac Highball,Brandy,Cognac,Ginger ale or soda water,Lemon twist (optional),NA,NA,NA
+Prince's Smile Cocktail,Cocktail Classics,Old Mr. Boston Apricot Flavored Brandy,Apple Brandy,Old Mr. Boston Dry Gin,Lemon Juice,NA,NA
+Viva Villa,Tequila,"Lime wedge, coarse salt",Blanco tequila,Fresh Lime Juice,Simple Syrup,NA,NA
+Praire Oyster Cocktail,Cordials and Liqueurs,Old Mr. Boston Five Star Brandy,Worcestershire Sauce,Tomato Catsup,Vinegar,Pepper,NA
+Praire Chicken,Cocktail Classics,Old Mr. Boston Dry Gin,Whole Egg,Pepper and Salt,NA,NA,NA
+Venial Sin,Tequila,Blanco tequila,Mezcal,Yellow Chartreuse,Elderflower liqueur,Maraschino liqueur,NA
+Vagabundo,Tequila,Reposado blanco tequila,Pineapple Juice,Fresh celery juice,Fresh Lime Juice,Lime wheel,NA
+The 21st Century,Tequila,Absinthe,Absinthe,Blanco tequila,Fresh Lime Juice,White creme de cacao,NA
+Pollyanna Cocktail,Cocktail Classics,orange peel,pineapple,Old Mr. Boston Dry Gin,sweet vermouth,NA,NA
+Toreador,Tequila,Blanco tequila,Dark creme de cacao,half-and-half,NA,NA,NA
+Pink Squirrel Cocktail,Cocktail Classics,Mr. Boston Creme de Noyaux,Old Mr. Boston White Creme de Cacao,Light Sweet Cream,NA,NA,NA
+Pink Lady Cocktail,Cocktail Classics,Egg White,Grenadine,Sweet Cream,Old Mr. Boston Dry Gin,NA,NA
+Tijuana Taxi,Tequila,Gold tequila,Blue curacao,Tropical fruit schnapps,NA,"Orange wheel, maraschino cherry",NA
+Tia Juanathan,Tequila,Blanco tequila,Fresh Lime Juice,Aperol,Yellow Chartreuse,Soda water,Orange half-wheel
+Phoebe Snow Cocktail,Cocktail Classics,Dubonnet,Old Mr. Boston Five Star Brandy,Absinthe Substitute,NA,NA,NA
+Tequonic,Tequila,Blanco tequila,Fresh lemon or lime juice,Tonic water,NA,NA,NA
+Tequini,Tequila,Blanco tequila,Dry Vermouth,Angostura bitters,NA,NA,NA
+Passion Daiquiri Cocktail,Cocktail Classics,Old Mr. Boston Rum,Juice of a Lime,Powdered Sugar,Passion Fruit Juice,NA,NA
+Parisian Blonde Cocktail,Cocktail Classics,Sweet Cream,Old Mr. Boston Triple Sec,Jamaica Rum,NA,NA,NA
+Tequila Sunrise,Tequila,Blanco tequila,Orange juice,Grenadine,NA,NA,NA
+Coffee Grasshopper,Brandy,Coffee-flavored brandy,White creme de menthe,half-and-half,NA,NA,NA
+Tequila Straight,Tequila,Coarse salt,Blanco tequila,Lime wedge,NA,NA,NA
+Tequila Sour,Tequila,Blanco tequila,Fresh lemon juice,Simple Syrup,NA,NA,NA
+Tequila Smash,Tequila,Blueberries,Bing cherries,Blanco tequila,Maraschino liqueur,Fresh Lime Juice,Lime wheel skewered with blueberry and Bing cherry
+Tequila Pink,Tequila,Blanco tequila,Dry Vermouth,Grenadine,NA,NA,NA
+Tequila Old-Fashioned,Tequila,Blanco tequila,Simple Syrup,Angostura Bitters,Soda water,Lemon twist,NA
+Rob Roy Cocktail,Cocktail Classics,Sweet Vermouth,Desmond & Duff Scotch Whisky,NA,NA,NA,NA
+Tequila Mockingbird,Tequila,"Lime wedge, coarse salt",Minced ginger,Blanco tequila,Agave nectar,Fresh Lime Juice,Lime wheel
+Tequila Matador,Tequila,Blanco tequila,Pineapple Juice,Fresh Lime Juice,NA,NA,NA
+Tequila Manhattan,Tequila,Blanco tequila,Sweet Vermouth,Angostura Bitters,NA,NA,NA
+T.N.T. Cocktail,Cocktail Classics,Old Thompson Blended Whiskey,Absinthe Substitute,NA,NA,NA,NA
+Thunderclap Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Old Thompson Blended Whiskey,Old Mr. Boston Five Star Brandy,NA,NA,NA
+Thunder Cocktail,Cocktail Classics,Powdered Sugar,Egg Yolk,Old Mr. Boston Five Star Brandy,Cayenne Pepper,NA,NA
+Tequila Collins,Tequila,Blanco tequila,Fresh lemon juice,Simple Syrup,NA,"lemon wheel, orange wheel, maraschino cherry",NA
+White Lady Cocktail,Cocktail Classics,Egg White,Powdered Sugar,Sweet Cream,Old Mr. Boston Dry Gin,NA,NA
+Tequila Canyon,Tequila,Blanco tequila,Triple Sec,Cranberry Juice,Pineapple Juice,Orange juice,Lime wheel
+Chicago Cocktail,Brandy,"Lemon wedge, superfine sugar",Brandy,Fresh lemon juice,Orange curacao,Maraschino liqueur,NA
+Sunday Confession,Tequila,Blanco tequila,Limoncello,Fresh lemon juice,NA,Lemon wedge,NA
+Strawberry Margarita,Tequila,"Lime wedge, superfine sugar or coarse salt (optional)","Fresh strawberries, cut in half",Strawberry schnapps,Blanco tequila,Triple Sec,"Fresh Lime Juice, whole strawberry"
+Western Rose Cocktail,Cocktail Classics,Old Mr. Boston Apricot Flavored Brandy,Old Mr. Boston Dry Gin,Dry Vermouth,Lemon Juice,NA,NA
+Widow's Kiss Cocktail,Cocktail Classics,Old Mr. Boston Five Star Brandy,Yellow Chartreuse,Benedictine,Peychaud Bitters,NA,NA
+Spice Of Life,Tequila,Cucumber,Fresh mint leaves,Simple Syrup,Jalapeno-Infused Tequila,Fresh Lime Juice,"Cucumber slice, fresh mint sprig"
+Widow's Dream Cocktail,Cocktail Classics,Benedictine,Whole Egg,NA,NA,NA,NA
+Vodka Gypsy Cocktail,Cocktail Classics,Old Mr. Boston Vodka,Benedictine,Angostura Bitters,NA,NA,NA
+South Of The Border,Tequila,Blanco tequila,Coffee-flavored brandy,Fresh Lime Juice,NA,NA,NA
+Vodka Grasshopper Cocktail,Cocktail Classics,Old Mr. Boston Vodka,Old Mr. Boston Green Creme de Menthe,Old Mr. Boston White Creme de Cacao,NA,NA,NA
+Violet Fizz Juice,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Old Mr. Boston Dry Gin,Creme Yvette,NA,NA
+Smoked Margarita,Tequila,"Smoky Scotch whisky, such as Islay or Skye",Reposado tequila,Triple Sec,Fresh lemon juice,Fresh Lime Juice,Lime wedge
+Sloe Tequila,Shooters,Blanco tequila,Sloe gin,Fresh Lime Juice,NA,NA,NA
+Queen Elizabeth Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Dry Vermouth,Benedictine,NA,NA,NA
+Silk Stockings,Tequila,Blanco tequila,White creme de cacao,Heavy cream,Grenadine,Ground cinnamon,NA
+Orchid Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Egg White,Creme Yvette,NA,NA,NA
+Orange Milk Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Old Mr. Boston Orange Flavored Gin,Milk,NA,NA
+Orange Gin Rickey,Cocktail Classics,Juice of a Lime,Old Mr. Boston Orange Flavored Gin,NA,NA,NA,NA
+Orange Gin Highball,Cocktail Classics,Old Mr. Boston Orange Flavored Gin,ginger ale,lemon twist,NA,NA,NA
+Orange Gin Fizz,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Old Mr. Boston Orange Flavored Gin,NA,NA,NA
+Orange Gin Collins,Cocktail Classics,Juice of a Lemon,Old Mr. Boston Orange Flavored Gin,NA,NA,NA,NA
+Sidewinder,Tequila,Reposado tequila,Campari,"Vanilla syrup, preferably B.A. Reynold's",Fresh Lime Juice,Mezcal,"Ginger beer, 1 oz"
+Orange Blossom Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Orange Juice,Powdered Sugar,NA,NA,NA
+Shady Lady,Tequila,Blanco tequila,Melon liqueur,Fresh grapefruit juice,Fresh grapefruit juice,Lime wedge; honeydew melon wedge or maraschino cherry,NA
+Cherry Blossom,Brandy,"Cherry-flavored brandy, superfine sugar",Brandy,cherry-flavored brandy,Fresh lemon juice,Triple Sec,"Grenadine, maraschino cherry"
+The Sfozando,Tequila,Mezcal,Rye Whiskey,Dry Vermouth,Benedictine,Chocolate bitters,Orange twist
+Napoleon Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Curacao,Dubonnet,NA,NA,NA
+Moulin Rouge Cocktail,Cocktail Classics,Old Mr. Boston Sloe Gin,Sweet Vermouth,Bitters,NA,NA,NA
+Sea Of Cortez,Tequila,Blanco tequila,Fresh Lime Juice,Creme de Cassis,Orange curacao,NA,NA
+Satin Sheets,Tequila,Blanco tequila,Falernum,Simple Syrup,Fresh Lime Juice,Lime wheel,NA
+Santana Sling,Tequila,Reposado tequila,Cherry Heering,Batavia arrack or light rum,Fresh Lime Juice,Ginger beer,NA
+Rosita,Tequila,Blanco tequila,Sweet Vermouth,Dry Vermouth,Campari,Angostura Bitters,Lemon twist
+Mariposa Cocktail,Cocktail Classics,Old Mr. Boston Rum,Old Mr. Boston Five Star Brandy,Lemon Juice,Orange Juice,Grenadine,NA
+Margarita Cocktail,Cocktail Classics,Old Mr. Boston Tequila,Old Mr. Boston Triple Sec,Lemon or Lime Juice,NA,NA,NA
+The Refuge,Tequila,Blanco tequila,Aperol,Fresh Lime Juice,Grapefruit Juice,Agave nectar,NA
+Manhattan Cocktail (dry),Cocktail Classics,Dry Vermouth,Old Thompson Blended Whiskey,NA,NA,NA,NA
+Mamie Taylor,Cocktail Classics,Juice of a Lime,Desmond & Duff Scotch Whisky,NA,NA,NA,NA
+Quetzalcoatl,Tequila,Blanco tequila,Mezcal,Creme de peche,Guava puree,Grapefruit Juice,Grapefruit twist
+Zero Mint,Cocktail Classics,Mr. Boston Creme de menthe,water,NA,NA,NA,NA
+Purple Pancho,Tequila,"Lime wedge, superfine sugar",Blanco tequila,Blue curacao,Sloe gin,Fresh Lime Juice,"each Fresh lemon juice, simple syrup, 1 lime wheel"
+Midnight Express,Rum - Daiquiris,Dark rum,Triple Sec,Fresh Lime Juice,Fresh lemon juice,Simple Syrup,NA
+London Special Cocktail,Cocktail Classics,orange peel,lump sugar,bitters,NA,NA,NA
+Mary Pickford Cocktail,Rum - Daiquiris,Light Rum,Pineapple Juice,Maraschino liqueur,Grenadine,NA,NA
+Charles Cocktail,Brandy,Brandy,Sweet Vermouth,Angostura Bitters,NA,NA,NA
+Martinique Rose,Rum - Daiquiris,Aged rhum agricole,Amaretto,Fresh Lime Juice,Grapefruit Juice,orgeat or almond syrup,NA
+Mariposa,Rum - Daiquiris,Light Rum,Brandy,Fresh lemon juice,Orange juice,Grenadine,NA
+Mandeville,Rum - Daiquiris,Light Rum,Dark rum,Fresh lemon juice,Anisette,Grenadine,NA
+K.C.B. Cocktail,Cocktail Classics,Old Mr. Boston Kummel,Old Mr. Boston Dry Gin,Old Mr. Boston Apricot Flavored Brandy,Lemon Juice,NA,NA
+Malmaison,Rum - Daiquiris,Anisette,Light Rum,Cream sherry,Fresh lemon juice,NA,NA
+Mai-Tai (Trader Vic Version),Rum - Daiquiris,"Dark rum, preferably Jamaican",Orange curacao,Fresh lime juice (reserve 1/2 lime shell for garnish),Orgeat Syrup,Rock candy syrup or simple syrup,Fresh mint sprig; pineapple wedge skewered with maraschino cherry
+Jersey Lightning Cocktail,Cocktail Classics,Apple Brandy,Sweet Vermouth,Juice of a Lime,NA,NA,NA
+Lumination,Rum - Daiquiris,Fresh ginger,Simple Syrup,Dark rum,VS cognac,"each Fresh lemon juice, Angostura bitters",Lemon twist
+Jamaica Glow Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Claret,Orange Juice,Jamaica Rum,NA,NA
+Lounge Lizard,Rum - Daiquiris,Dark rum,Amaretto,Cola,NA,NA,NA
+Jack-in-the-Box Cocktail,Cocktail Classics,Apple Brandy,Pineapple Juice,Bitters,NA,NA,NA
+Irish Whisky Cocktail,Cocktail Classics,Old Mr. Boston Triple Sec,Absinthe Substitute,Maraschino,Bitters,Irish Whiskey,NA
+Look Out Below,Rum - Daiquiris,151-Proof Rum,Fresh Lime Juice,Grenadine,NA,NA,NA
+Little Princess Cocktail,Rum - Daiquiris,Light Rum,Sweet Vermouth,NA,NA,NA,NA
+Little Devil Cocktail,Rum - Daiquiris,Light Rum,Gin,Fresh lemon juice,Triple Sec,NA,NA
+Champs Elysees Cocktail,Brandy,Brandy,Yellow Chartreuse,Fresh lemon juice,Simple Syrup,Angostura Bitters,NA
+Hop Toad Cocktail,Cocktail Classics,Juice of a Lime,Old Mr. Boston Apricot Flavored Brandy,Old Mr. Boston Rum,NA,NA,NA
+Level headed Cocktail,Rum - Daiquiris,Aged rhum agricole,Cold brewed coffee,Allspice liqueur (pimento dram),Simple Syrup,Angostura Bitters,NA
+La Vita Dulce,Rum - Daiquiris,Spiced rum,Mezcal,Fresh Lime Juice,Simple Syrup,Ground cinnamon,NA
+Hole-in-One Cocktail,Cocktail Classics,Desmond & Duff Scotch Whisky,Dry Vermouth,Lemon Juice,Orange Bitters,NA,NA
+Ko Adang,Rum - Daiquiris,Dark rum,Coconut rum,Ginger liqueur,Mango nectar,Cream of coconut,"Fresh Lime Juice, lime wheel"
+Knickerbocker Special Cocktail,Rum - Daiquiris,Light Rum,Triple Sec,Fresh lemon juice,Orange juice,Raspberry Syrup,Small pineapple slice
+Hair Raiser Cocktail,Cocktail Classics,Old Mr. Boston 100 proof Vodka,Old Mr. Boston Rock and Rye,Lemon Juice,NA,NA,NA
+Green Opal Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Old Mr. Boston Anisette,Absinthe Substitute,NA,NA,NA
+Jamaican Ginger,Rum - Daiquiris,Light Rum,Dark rum,Falernum,Fresh Lime Juice,Angostura Bitters,"Ginger ale, lime wheel"
+Green Dragon Cocktail,Cocktail Classics,Juice of a Lemon,Old Mr. Boston Kummel,Old Mr. Boston Green Creme de Menthe,Old Mr. Boston Dry Gin,Orange Bitters,NA
+Grasshopper Cocktail,Cocktail Classics,Old Mr. Boston Green Creme de Menthe,Old Mr. Boston White Creme de Cacao,Light Sweet Cream,NA,NA,NA
+Jamaican Crawler,Rum - Daiquiris,Light Rum,Melon liqueur,Pineapple Juice,Grenadine,NA,NA
+Golden Slipper Cocktail,Cocktail Classics,Yellow Chartreuse,Old Mr. Boston Apricot Flavored Brandy,NA,NA,NA,NA
+Jade,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Green creme de menthe,Triple Sec,Simple Syrup Scant,Lime wheel
+Jacqueline,Rum - Daiquiris,Dark rum,Triple Sec,Fresh Lime Juice,Simple Syrup,NA,NA
+Jack Sparrow Flip,Rum - Daiquiris,Dark rum,Madeira,Simple Syrup,Egg,Angostura Bitters,Freshly grated nutmeg
+Irresistible,Rum - Daiquiris,Light Rum,Sweet Vermouth,Benedictine,Fresh lemon juice,Lemon twist,NA
+Carroll Cocktail,Brandy,Brandy,Sweet Vermouth,Maraschino cherry,NA,NA,NA
+Hush and Wonder,Rum - Daiquiris,Creme de violette,Light Rum,Fresh Lime Juice,Simple Syrup,Grapefruit bitters,NA
+Hurricane Leah,Rum - Daiquiris,"each Light Rum, Gin, Vodka, Blanco tequila, Blue curacao",cherry-flavored brandy,Simple Syrup,Fresh lemon juice,Fresh orange juice,Orange wheel
+Gimlet Cocktail,Cocktail Classics,Rose's Lime Juice,Powdered Sugar,Old Mr. Boston Dry Gin,NA,NA,NA
+Hurricane,Rum - Daiquiris,"each Dark rum, light rum",Passion Fruit Syrup,Lime Juice,Orange juice,"each Simple Syrup, grenadine","Orange half-wheel, maraschino cherry"
+Hop Toad,Rum - Daiquiris,Light Rum,Apricot-Flavored Brandy,Fresh Lime Juice,NA,NA,NA
+The Holy Roller,Rum - Daiquiris,Cachaca,Fresh Lime Juice,Honey Syrup,NA,Angostura Bitters,"Champagne or sparkling wine, mint sprig"
+Hemingway's Nog,Rum - Daiquiris,Dark rum,Vanilla liqueur,Simple Syrup,Creme fraiche,"tiki bitters, such as Bittermen's Elemakule",Freshly grated nutmeg
+Flying Scotchman Cocktail,Cocktail Classics,Sweet Vermouth,Desmond & Duff Scotch Whisky,Bitters,Sugar Syrup,NA,NA
+Flying Grasshopper Cocktail,Cocktail Classics,Old Mr. Boston Green Creme de Menthe,Old Mr. Boston White Creme de Cacao,Old Mr. Boston Vodka,NA,NA,NA
+Havana Cocktail,Rum - Daiquiris,Light Rum,Pineapple Juice,Fresh lemon juice,NA,NA,NA
+Harvest Nectar,Rum - Daiquiris,Light Rum,Pineapple Juice,Cranberry Juice,Orange juice,Lemon-lime soda,NA
+Fancy Brandy Cocktail,Cocktail Classics,Old Mr. Boston Five Star Brandy,Bitters,Old Mr. Boston Triple Sec,Powdered Sugar,NA,NA
+Fallen Angel Cocktail,Cocktail Classics,Juice of a Lime,Old Mr. Boston Dry Gin,Bitters,Old Mr. Boston White Creme de Menthe,NA,NA
+The Poncho,Tequila,Reposado tequila,Dry Vermouth,Maraschino liqueur,Peychaud's Bitters,Maraschino cherry,NA
+Hai Karate,Rum - Daiquiris,Dark rum,Fresh Lime Juice,Pineapple Juice,Orange juice,Maple Syrup,Angostura Bitters
+Cara Sposa,Brandy,Coffee-flavored brandy,Triple Sec,half-and-half,NA,NA,NA
+Traditional Martini (Dry),Cocktail Classics,Gin,Dry Vermouth,Orange Bitters,NA,NA,NA
+Pina Agave,Tequila,Cucumber,Blanco tequila,Pineapple Juice,Fresh lemon juice,Agave nectar,"Lemon-lime soda, cucumber slice"
+Grande Guignol,Rum - Daiquiris,Dark rum,Yellow Chartreuse,Cherry Heering,Fresh Lime Juice,Lime wheel,NA
+Pancho Villa,Tequila,Anejo tequila,Aperol,Sweet Vermouth,Peach bitters,Grapefruit twist,NA
+Paloma (Natural),Tequila,Blanco tequila,Fresh white or ruby red grapefruit juice,Soda water,NA,NA,NA
+Golden Friendship,Rum - Daiquiris,Light Rum,Sweet Vermouth,Amaretto,NA,"Orange zest spiral, maraschino cherry",NA
+Paloma,Tequila,Blanco tequila,Grapefruit-flavored soda,Lime wedge,NA,NA,NA
+Pacific Sunshine,Tequila,"Lemon wheel, coarse salt",Blanco tequila,Blue curacao,Simple Syrup,Fresh lemon juice,Angostura Bitters
+Golden Eclipse,Rum - Daiquiris,Dark rum,Amaro,Fresh lemon juice,Orange Bitters,Sparkling apple cider,Golden Delicious apple wedge
+Diplomat Cocktail,Cocktail Classics,Dry Vermouth,Sweet Vermouth,Bitters,Maraschino,NA,NA
+Oldest Temptation,Tequila,Anejo tequila,Apple juice,Fresh lemon juice,Triple Sec,Simple Syrup,"Angostura Bitters, flamed lemon twist"
+Ginger Grapefruit Rickey,Rum - Daiquiris,Light Rum,Fresh grapefruit juice,Ginger liqueur,Fresh Lime Juice,Soda water,NA
+Calvados Cocktail,Brandy,Calvados,Orange juice,Triple Sec,Orange Bitters,NA,NA
+Daiquiri Cocktail,Cocktail Classics,Juice of a Lime,Powdered Sugar,Old Mr. Boston Rum,NA,NA,NA
+The Oaxaca Old-Fashioned,Tequila,Reposado tequila,Mezcal,Agave nectar,Angostura Bitters,"Orange twist, flamed",NA
+Cuban Special Cocktail,Cocktail Classics,Pineapple Juice,Juice of a Lime,Old Mr. Boston Rum,Old Mr. Boston Triple Sec,NA,NA
+Gaugin,Rum - Daiquiris,Light Rum,Fresh lemon juice,Fresh Lime Juice,Passion Fruit Syrup,Maraschino cherry,NA
+The Nomad South,Tequila,Blanco tequila,Orange juice,Blood orange juice,Agave nectar,Fresh Lime Juice,Whiskey barrel bitters
+Creole Lady Cocktail,Cocktail Classics,Old Kentucky Tavern Bourbon Whiskey,Madeira,Grenadine,NA,NA,NA
+No. 8,Tequila,Reposado tequila,Palo cortado or oloroso sherry,Honey liqueur,Orange Bitters,Lemon twist,NA
+Fog Cutter,Rum - Daiquiris,Light Rum,Brandy,Gin,Fresh lemon juice,each Orange juice and sweet sherry,Almond or orgeat syrup
+Mexicola,Tequila,Blanco tequila,Fresh Lime Juice,NA,NA,NA,NA
+Floridita No. 3,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Grapefruit Juice,Maraschino liqueur,Simple Syrup,Lime wheel
+Mexican Monk,Tequila,Reposado tequila,Dry Sherry,Coffee liqueur,Benedictine,Lemon twist,NA
+Floridita No. 1,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Sweet Vermouth,White creme de cacao,Grenadine,Lime twist
+Mexican Madras,Tequila,Blanco tequila,Cranberry Juice,Orange juice,Fresh Lime Juice,Orange wheel,NA
+Cadiz,Brandy,Blackberry-flavored brandy,Dry Sherry,Triple Sec,half-and-half,NA,NA
+Chocolate Soldier Cocktail,Cocktail Classics,Juice of a Lime,Dubonnet,Old Mr. Boston Dry Gin,NA,NA,NA
+Fireman's Sour,Rum - Daiquiris,Light Rum,Fresh Lime Juice,Simple Syrup,Grenadine,Soda water (optional),"Lemon half-wheel, maraschino cherry"
+Fat Like Buddha,Rum - Daiquiris,Dark rum,Dubonnet Rouge,Benedictine,Triple Sec,"Orange twist, flamed",NA
+Cherry Blossom Cocktail,Cocktail Classics,Old Mr. Boston Five Star Brandy,Old Mr. Boston Wild Cherry Flavored Brandy,Old Mr. Boston Triple Sec,Grenadine,Lemon Juice,NA
+Fair-and-Warmer Cocktail,Rum - Daiquiris,Light Rum,Sweet Vermouth,Triple Sec,NA,NA,NA
+Chelsea Sidecar Cocktail,Cocktail Classics,Juice of a Lemon,Old Mr. Boston Triple Sec,Old Mr. Boston Dry Gin,NA,NA,NA
+Mexican Firing Squad,Tequila,Blanco tequila,Simple Syrup,Fresh Lime Juice,pomegranate molasses (available at Middle Eastern grocers),Angostura Bitters,Lime wheel
+Mexicana,Tequila,Blanco tequila,Fresh lemon juice,Pineapple Juice,Grenadine,NA,NA
+El Presidente Cocktail No. 2,Rum - Daiquiris,Light Rum,Dry Vermouth,Angostura Bitters,NA,NA,NA
+Margarita Tequila,Shooters,"Lime wedge, coarse salt",Blanco tequila,Cointreau triple sec,Fresh Lime Juice,NA,NA
+Lillypad,Tequila,Blanco tequila,each Lillet Blanc and Lillet Rouge,Apple juice,Fresh Lime Juice,Agave nectar,Blood orange wheel
+X. Y. Z. Cocktail,Cocktail Classics,Lemon Juice,Old Mr. Boston Triple Sec,Old Mr. Boston Rum,NA,NA,NA
+La Ultima Palabra,Tequila,Blanco tequila,Fresh grapefruit juice,Fresh Lime Juice,Yellow Chartreuse,Maraschino liqueur,Grapefruit twist
+La Perla,Tequila,Reposado tequila,Manzanilla sherry,Pear liqueur,NA,NA,NA
+Bull's Milk,Brandy,Brandy,Light Rum,Simple Syrup,Milk,"Freshly grated nutmeg, ground cinnamon",NA
+La Bomba,Tequila,"Lime wedge, superfine sugar",Gold tequila,Triple Sec,Pineapple Juice,Orange juice,"Grenadine, lime wheel"
+Jinx Cocktail,Tequila,Blanco tequila,Blood orange liqueur,Becherovka (Czech digestif),Fresh grapefruit juice,"Grapefruit twist, flamed",NA
+The Interesting Cocktail,Tequila,Blanco tequila,Aperol,Dark creme de cacao,Fresh lemon juice,Grapefruit twist,NA
+Hot Pants,Tequila,"Lime wedge, coarse salt",Blanco tequila,Peppermint schnapps,Grapefruit Juice,Simple Syrup,NA
+High Plains Drifter No. 1,Tequila,Campari,Blanco tequila,Fresh Lime Juice,Honey Syrup,Angostura Bitters,NA
+Hairy Sunrise,Tequila,Blanco tequila,Vodka,Triple Sec,Orange juice,Fresh grenadine,Lime wedge
+Guadalajara,Tequila,Blanco tequila,Dry Vermouth,Benedictine,NA,NA,NA
+Frostbite,Tequila,Blanco tequila,White creme de cacao,Heavy cream,NA,NA,NA
+Flower Power,Tequila,Blanco tequila,Grapefruit Juice,Agave nectar,Egg White,Orange blossom water,Peychaud's Bitters
+Cablegram Highball,Cocktail Classics,Juice of a Lemon,Powdered Sugar,Old Thompson Blended Whiskey,NA,NA,NA
+Cabaret Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Bitters,Dry Vermouth,Benedictine,NA,NA
+Bulla's Eye,Brandy,Brandy,Hard cider,Ginger ale,NA,NA,NA
+El Oso (The Bear),Tequila,Anejo tequila,Honey liqueur,Maraschino liqueur,The Bitter Truth's Jerry Thomas' Own Decanter Bitters,Dehydrated Orange Wheel,NA
+El Ni_o,Tequila,Lime wedges,Whole strawberry,Simple Syrup,Blanco tequila,Rose water,NA
+El Molino,Tequila,Mezcal,Palo cortado or oloroso sherry,Allspice liqueur (pimento dram),White creme de cacao,NA,NA
+Bucks Fizz,Cocktail Classics,orange juice,champagne,NA,NA,NA,NA
+Dirty Daisy,Tequila,Reposado tequila,White Curacao,Olive brine,Balsamic vinegar,Fresh Lime Juice,NA
+Diablo,Tequila,Blanco tequila,Creme de Cassis,Fresh Lime Juice,NA,Lime wheel,NA
+Count Camillo's Paloma,Tequila,Blanco tequila,Sweet Vermouth,Campari,Grapefruit soda,Rosemary sprig,NA
+Company B,Tequila,"Whole strawberry, hulled",Blanco tequila,Campari,Triple Sec,Fresh lemon juice,"Agave nectar, strawberry slice"
+Chupa Cabra,Tequila,Blanco tequila,Fresh grapefruit juice,Fresh Lime Juice,Campari,Simple Syrup,"Angostura Bitters, lime wheel"
+Chinchona,Tequila,Anejo tequila,Lillet Rouge,Orange curacao,Orange Bitters,Orange twist,NA
+Chapala,Tequila,Reposado tequila,Orange juice,Fresh lemon juice,Grenadine,Orange blossoms (optional): orange wedge,NA
+Bulldog Cocktail,Brandy,cherry-flavored brandy,Gin,Fresh lemon juice,NA,NA,NA
+Boston Sidecar Cocktail,Cocktail Classics,Old Mr. Boston Five Star Brandy,Old Mr. Boston Rum,Old Mr. Boston Triple Sec,Juice of a Lime,NA,NA
+Catalina Margarita,Tequila,Blanco tequila,Peach schnapps,Blue curacao,Simple Syrup,Fresh lemon juice,NA
+Camino Del Ray,Tequila,Anejo tequila,Oloroso sherry,Drambuie,Rhubarb bitters,Lemon twist,NA
+Cactus Berry,Tequila,Lime wedge coarse salt,Blanco tequila,Red wine,"each Triple Sec, simple syrup","each Fresh lemon juice, fresh lime juice",Lemon-lime soda
+Bolero Cocktail,Cocktail Classics,Old Mr. Boston Rum,Apple Brandy,Sweet Vermouth,NA,NA,NA
+Bum's Rush,Tequila,Blanco tequila,Triple Sec,Honey liqueur,Fresh Lime Juice,Fresh apple cider,Lime wedge
+Brave Bull,Tequila,Blanco tequila,Coffee liqueur,Lemon twist,NA,NA,NA
+Blue Margarita,Tequila,"Lime juice, coarse salt",Blanco tequila,Blue curacao,Fresh Lime Juice,NA,NA
+Bloody Maria,Tequila,Blanco tequila,Tomato Juice,Fresh lemon juice,Hot red pepper sauce,Celery Salt,Lemon wheel
+Pineapple Dream Cocktail,Cocktail Classics,Pineapple Juice,Juice of a Lime,Old Mr. Boston Imported Rum,NA,NA,NA
+Big Red Hooter,Tequila,Blanco tequila,Amaretto,Pineapple Juice,Grenadine,Maraschino cherry,NA
+Blood Bronx Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Dry Vermouth,Juice of a Blood Orange,NA,NA,NA
+Bravo,Tequila,Anejo tequila,Agave nectar,Angostura Bitters,Orange Bitters,Grapefruit twist,NA
+Amante Picante,Tequila,Cucumber,Fresh cilantro sprigs,Blanco tequila,Fresh Lime Juice,Simple Syrup,"Jalapeno hot pepper sauce, cucumber slice"
+Brunswick Street Cocktail,Brandy,Cognac,"Sweet sherry, preferably Pedro Ximenez",Egg Yolk,NA,NA,NA
+Black Hawk Cocktail,Cocktail Classics,Old Thompson Blended Whiskey,Old Mr. Boston Sloe Gin,NA,NA,NA,NA
+Alamo Splash,Tequila,Blanco tequila,Orange juice,Pineapple Juice,Lemon-lime soda,NA,NA
+Betsy Ross Cocktail,Cocktail Classics,Old Mr. Boston Five Star Brandy,Port,Old Mr. Boston Triple Sec,NA,NA,Old Mr. Boston Dry Gin
+Bermuda Rose Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Old Mr. Boston Apricot Flavored Brandy,Grenadine,NA,NA,NA
+Yokahama Romance,Gin,Sake,Gin,Maraschino liqueur,Unsprayed rose petal,NA,NA
+Yale Cocktail,Gin,Gin,Dry Vermouth,Blue curacao,Angostura Bitters,NA,NA
+Xanthia Cocktail,Gin,Gin,cherry-flavored brandy,Yellow Chartreuse,NA,NA,NA
+Woodstock,Gin,Gin,Fresh lemon juice,Maple Syrup,Orange Bitters,NA,NA
+Wolf's Bite,Gin,Gin,Grapefruit Juice,Green Chartreuse,NA,NA,NA
+Barbary Coast Cocktail,Cocktail Classics,Old Mr. Boston Dry Gin,Old Mr. Boston Rum,Old Mr. Boston Creme de Cacao,Desmond & Duff Scotch Whisky,Sweet Cream,NA
+The Winkle,Gin,Fresh sage leaves,Gin,Fresh Lime Juice,Limoncello,Simple Syrup,"Raspberries, lemon twist"
+The Wink,Gin,Absinthe,Gin,Triple Sec,Simple Syrup,Peychaud's Bitters,NA
+Will Rogers,Gin,Gin,Dry Vermouth,Orange juice,Triple Sec,NA,NA
+Brandy Vermouth Cocktail,Brandy,Brandy,Sweet Vermouth,Angostura Bitters,NA,NA,NA
+White Spider,Gin,Gin,Fresh lemon juice,Triple Sec,Simple Syrup,NA,NA
+White Lady,Gin,Gin,Triple Sec,NA,NA,NA,NA
+Western Rose,Gin,Gin,Dry Vermouth,Apricot-Flavored Brandy,Fresh lemon juice,NA,NA
+May Blosson Fizz,Cocktail Classics,Grenadine,Juice of a Lemon,Swedish Punch,NA,NA,NA
+Wembly Cocktail,Gin,Gin,Dry Vermouth,Apple Brandy,Apricot-Flavored Brandy,NA,NA
+Apple Pie Cocktail,Cocktail Classics,Old Mr. Boston Rum,Sweet Vermouth,Apple Flavored Brandy,Grenadine,Lemon Juice,NA
+Water Lily,Gin,Gin,Triple Sec,Creme de violette,Fresh lemon juice,Orange twist,NA
+Wallis Blue Cocktail,Gin,"Lime wedge, superfine sugar",Gin,Triple Sec,Fresh Lime Juice,NA,NA
+Minnehaha Cocktail,Cocktail Classics,Juice of Orange,Dry Vermouth,Sweet Vermouth,Old Mr. Boston Dry Gin,NA,NA
+Wallick Cocktail,Gin,Gin,Dry Vermouth,Triple Sec,NA,NA,NA
+Waikiki Beachcomber,Gin,Gin,Triple Sec,Pineapple Juice,NA,NA,NA
+Vow Of Silence,Gin,Gin,Grapefruit Juice,Fresh Lime Juice,Yellow Chartreuse,Amaro,Simple Syrup

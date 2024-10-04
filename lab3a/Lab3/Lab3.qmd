@@ -1,0 +1,381 @@
+---
+title: "Lab3: Exploratory Data Analysis"
+author: "Darwhin Gomez"
+format: pdf
+editor: source
+markdown: 
+output-file: pdf
+editor_options: 
+  chunk_output_type: inline
+---
+
+## Overview
+
+This is a two part lab where each part will focus on a different dataset: the first part will use a dataset containing a series of diagnostic measurements taken on members of the Akimel O'odham people (an indigenous group living in the Southwestern United States who are also called the Pima) to understand diabetes risk ([click here to download diabetes.csv](https://github.com/georgehagstrom/DATA607/blob/main/website/assignments/labs/labData/diabetes.csv)), and the second dataset contains information on traffic accidents in New York City in the months of July and August of this year, and was compiled by NYC Open Data ([click here to download crashes.csv](https://github.com/georgehagstrom/DATA607/blob/main/website/assignments/labs/labData/crashes.csv)).
+
+For this problem set you will need to install the `skimr` and `GGally` packages, and in particular the functions `skim` and `ggpairs`.
+
+We will also explore the concept of an *inlier*, which is an erroneous value that occurs in the interior of the distribution of a variable, rather than in the tails of the variable. The US Census [published an article on the problem of inliers here](https://www.census.gov/content/dam/Census/library/working-papers/1998/adrm/rr9805.pdf)
+
+## Part 1: Health Diagnostics and Diabetes Incidence
+
+**Problem 1: Data Description and Outliers.**
+
+Load `diabetes.csv` into R and take a look at the data using the `skimr` package (make sure to install it if you don't have it). Skimr provides a tidy summary function called `skim`. Use `skim` on the data frame that you loaded from diabetes.csv.\
+
+```{r message=FALSE, warning=FALSE}
+library(readr)
+library(tidyverse)
+library(skimr)
+library(GGally)
+library(gridExtra)
+library(lubridate)
+```
+
+```{r message=FALSE, warning=FALSE}
+diabetesdf<- read_csv("diabetes.csv")
+```
+
+```{r message=FALSE, warning=FALSE}
+skim(diabetesdf)
+```
+
+Skim will list several variables. Pregnancies is the past number of pregnancies (this dataset includes women 21 years or older), glucose describes the concentration of glucose in the blood after an oral glucose tolerance test (drinking a sugary drink and measuring two hours later), skin thickness is the result of a skinfold thickness test taken at the triceps (upper arm), Insulin is the insulin concentration in the blood taken at the same time as the glucose measurement (Insulin is a hormone that transports glucose into cells), BMI is "Body Mass Index", Diabetes Pedigree Function is a measure of diabetes risk based on the family history of diabetes for each patient (this is an engineered feature) and outcome is equal to 1 if the patient was diagnosed with diabetes with 5 years and 0 otherwise.
+
+a)  Skim should show no missing data, but should indicate potential data issues. Do any of the percentile ranges (p0, p25, p50, p75, or p100) for the reported variables suggest a potential problem?\
+    -There are missing p 25s for insulin, think thickness and outcome; the only one this should be the case for is outcome
+
+b)  qq_plots \<- lapply(variables, function(var) {
+
+    ggplot(diabetesdf, aes(sample = !!sym(var))) +
+
+    geom_qq() +
+
+    geom_qq_line(color = "red") +
+
+    ggtitle(paste("QQ-Plot for", var)) +
+
+    labs(x = "Theoretical Quantiles", y = "Sample Quantiles") +
+
+    theme_minimal()
+
+    })
+
+c)  Further investigate the dataset to find potentially problematic variables using a qq-plot (`geom_qq`) or `group_by` combined with `count` and `arrange`. For which variables do you find repeated values and what are those values? Do you believe these values represent real measurements or could they correspond to missing data? Do the repeated variables occur in the same rows or different rows?
+
+    ```{r fig.height=12, fig.width=14,}
+    variables <- colnames(diabetesdf)
+    diabetes_long <- diabetesdf %>%
+      pivot_longer(cols = everything(), names_to = "variable", values_to = "value")  
+    ggplot(diabetes_long, aes(sample = value)) + 
+      geom_qq() + 
+      geom_qq_line(color = "red") + 
+      facet_wrap(~ variable, ncol = 3, scales = "free") +  # Individual axes for each plot
+      ggtitle("QQ-Plots for All Variables") +
+      labs(x = "Theoretical Quantiles", y = "Sample Quantiles") +
+      theme_minimal()
+
+
+
+      
+    ```
+
+Write an overview of which values are missing and replace all missing values with NA for the next stage of analysis.
+
+```{r message=FALSE, warning=FALSE}
+diabetesdf <- diabetesdf %>%
+  mutate(across(c(
+    BloodPressure, BMI, SkinThickness, Insulin, Glucose,Pregnancies), ~na_if(., 0)))  
+
+# Reshape the dataset to long format
+diabetes_long_na <- diabetesdf %>%
+  pivot_longer(cols = everything(), names_to = "variable", values_to = "value")
+```
+
+```{r fig.height=12, fig.width=14,}
+ggplot(diabetes_long_na, aes(sample = value)) + 
+  geom_qq() + 
+  geom_qq_line(color = "red") + 
+  facet_wrap(~ variable, ncol = 3, scales = "free") +  # Individual axes for each plot
+  ggtitle("QQ-Plots for All Variables") +
+  labs(x = "Theoretical Quantiles", y = "Sample Quantiles") +
+  theme_minimal()
+```
+
+\
+**In the dataset, several variables, including blood pressure, BMI, skin thickness, and insulin, glucose, and pegnancies exhibit a significant number of missing data points, which may impact the analysis and interpretation of the results.**
+
+c)  Perform Tukey Box plots on each variable to identify potential outliers. Which variables have the most outliers? Are there any outliers that you think come from measurement error? If so remove them.\
+    Insulin and DPF have the most outliers.
+
+    ```{r message=FALSE, warning=FALSE}
+    ggplot(diabetes_long_na, aes(x = variable, y = value)) + 
+      geom_boxplot() + 
+      facet_wrap(~ variable, ncol = 4 , scales = "free") +  
+      ggtitle("Boxplots for All Variables") +
+      labs(x = "Variables", y = "Values") +
+      theme_minimal()
+
+    ```
+
+**Problem 2: Pair Plots**
+
+Use the `GGally` package and its function `ggpair` on both the original dataset and the cleaned dataset. Which correlations change the most? What are the strongest correlations between variables overall and with the `Outcome`?\
+**The highest correlation relationship a diabetic outcome is with Glucose \@ 0.495, then BMI \@ 0.314 , closely followed by Insulin measurement \@ 0.303c**
+
+```{r fig.height=12, fig.width=14,message=FALSE, warning=FALSE}
+diabetesdf %>%
+  ggpairs()
+```
+
+-   Remark: This dataset has been used an model dataset for the construction of binary classifiers using machine learning and there are a large number of published studies showing these analyses. However, many of these analyses did not exclude the missing values erroneously coded as zero, as is discussed in this interesting paper by [Breault](https://www.researchgate.net/profile/Joseph-Breault/publication/215899115_Data_mining_diabetic_databases_Are_rough_sets_a_useful_addition/links/0912f504615e8b6e0a000000/Data-mining-diabetic-databases-Are-rough-sets-a-useful-addition.pdf), leading to highly degraded accuracy.
+
+## Part 2: Car Crashes in NYC
+
+**Problem 3: Finding Inliers and Missing Data**
+
+Load the NYC car crash dataset using `read_csv`. You can download the data from the course website by [clicking here](https://github.com/georgehagstrom/DATA607/blob/main/website/assignments/labs/labData/crashes.csv).
+
+```{r message=FALSE, warning=FALSE}
+nyc_wrecksdf<- read_csv("crashes.csv")
+skim(nyc_wrecksdf)
+```
+
+a)  Which variables have missing data (use `skim` or another tool of your choosing)? Some missing values have a different interpretation than others- what does it mean when `VEHICLE TYPE CODE 2` is missing compared to `LATITUDE`?
+
+    **Latitude indicates that there was no code input for the geographic latitude location of the crash. If `Vehicle Type 2` is missing, it suggests that this was a single-vehicle accident.**
+
+    **The variables with missing data are**: **CRASH DATE, BOROUGH, LOCATION, ON STREET NAME, CROSS STREET NAME, OFF STREET NAME, CONTRIBUTING FACTOR VEHICLE 1, CONTRIBUTING FACTOR VEHICLE 2, CONTRIBUTING FACTOR VEHICLE 3, and CONTRIBUTING FACTOR VEHICLE 4 , ZipCode, Longitude, Latitude .**
+
+b)  Latitude and Longitude have the same number of missing values. Verify that they always occur in the same row. Check the counts of latitude and longitude values- do you find any hidden missing values? If so re code them as NA.
+
+    ```{r message=FALSE, warning=FALSE}
+    same_rows <- all(is.na(nyc_wrecksdf$LATITUDE) == is.na(nyc_wrecksdf$LONGITUDE))
+    print(same_rows)
+
+    ```
+
+    ```{r message=FALSE, warning=FALSE}
+    # Recode hidden missing values (if applicable)
+    nyc_wrecksdf$LATITUDE <- na_if(nyc_wrecksdf$LATITUDE, 0)
+    nyc_wrecksdf$LONGITUDE <- na_if(nyc_wrecksdf$LONGITUDE, 0)
+    skim(nyc_wrecksdf)
+    ```
+
+c)  Many of the geographic values are missing, but geographic information is redundant in multiple variables in the dataset. For example, with effort you could determine the borough of an accident from the zip code, the latitude and longitude, or the streets (not part of the assignment for this week). Consider the borough variable- what percentage of the missing values of borough have values present of *at least* one of zip code or latitude. What about if we include all the street name variables? What fraction of rows don't have any detailed location information (latitude, zip code, or street names)
+
+    ```{r message=FALSE, warning=FALSE}
+    mystery_borough <- nyc_wrecksdf |>
+      filter(is.na(BOROUGH) & (!is.na(`ZIP CODE`) | !is.na(LATITUDE)))
+
+
+    ```
+
+    ```{r message=FALSE, warning=FALSE}
+    skim(mystery_borough)
+    ```
+
+    **Percentage with at least zip code or latitude present**
+
+    ```{r message=FALSE, warning=FALSE}
+    miss_borough_n = 4559# from skim on orginal df
+    zip_Lat_n = 2062
+    per_z_l = (2062/4559) *100
+    print(per_z_l)
+    ```
+
+    ```{r message=FALSE, warning=FALSE}
+    someinfo<- nyc_wrecksdf |>
+      filter(is.na(
+        BOROUGH) & 
+                      (is.na(`ZIP CODE`) |
+                      is.na(LATITUDE)|
+                      is.na(`ON STREET NAME`) | 
+                      is.na(`CROSS STREET NAME`)|
+                      is.na(`OFF STREET NAME`)
+                      ))
+    print(nrow(someinfo))
+
+    ```
+
+    ```{r  message=FALSE, warning=FALSE}
+    no_location_info <- nyc_wrecksdf |>
+      filter(
+        is.na(BOROUGH) & 
+        is.na(`ZIP CODE`) & 
+        is.na(LATITUDE) & 
+        is.na(`ON STREET NAME`) & 
+        is.na(`CROSS STREET NAME`) & 
+        is.na(`OFF STREET NAME`)
+      )
+
+    # Print the filtered data
+    print(nrow(no_location_info))
+    ```
+
+```         
+```
+
+a)  **All rows with a missing `BOROUGH` have at least one other identifier for location, indicating that 100% of these rows contain alternative location information. Conversely, 0% of the rows lack any identifiable location details.**
+
+b)  The `CRASH TIME` variable has no missing values. Compute the count of how many times each individual time occurs in the crash data set. This will suggest that there are some inliers in the data. Compute summary statistics on the count data, and determine how many inliers there are (define an inlier as a data value where the count is an outlier, i.e. the count of that value is greater than 1.5\*IQR + P75, i.e. 1.5 times the interquartile range past the 75th percentile for the distribution of counts for values of that variable.) For which inliers do you believe the time is most likely to be accurate? For which is it least likely to be accurate and why do you think so?\
+    **306 observations** **for time = 00:00:00 because this seems that it was just entered either to fill out by lack of data or oversight** **.**
+
+    ```{r , message=FALSE, warning=FALSE}
+    nyc_wrecksdf <- nyc_wrecksdf |>
+      mutate(`CRASH TIME` = as.POSIXct(`CRASH TIME`, format = "%H:%M:%S", tz = "UTC"))
+    time_counts <- nyc_wrecksdf |>
+      count(`CRASH TIME`)|>
+      arrange(desc(n))
+    summary_stats <- summary(time_counts$n)
+    print(summary_stats)
+    print(time_counts)
+    ggplot(nyc_wrecksdf, aes(x = `CRASH TIME`)) +
+      geom_histogram(binwidth = 3600, fill = "blue", color = "white") +  # Adjust binwidth for hourly distribution
+      ggtitle("Histogram of CRASH TIME Distribution") +
+      labs(x = "CRASH TIME", y = "Count") +
+      theme_minimal() +
+      scale_x_time(labels = scales::time_format("%H"), breaks = scales::breaks_width("1 hour"))  # Format x-axis
+
+
+
+    ggplot(time_counts, aes(sample = `CRASH TIME`)) + 
+      geom_qq()+
+      geom_qq_line(color="red")
+       
+    # Box plot for CRASH TIME
+    ggplot(nyc_wrecksdf, aes(x = "", y = `CRASH TIME`)) + 
+      geom_boxplot() + 
+      ggtitle("Box Plot of CRASH TIME") +
+      labs(y = "CRASH TIME") 
+
+
+
+
+    ```
+
+    \
+    \
+
+**Problem 4: Finding Patterns in the Data**
+
+Formulate a question about crash data in NYC and make visualizations to explore your question. It could be related to the geographical distribution of accidents, the timing of accidents, which types of vehicles lead to more or less dangerous accidents, or anything else you want. Write comments/notes describing your observations in each visualizations you create and mention how these observations impact your initial hypotheses.
+
+Useful questions to consider when you observe a pattern:
+
+-   Could this pattern be due to coincidence (i.e. random chance)?
+-   How can you describe the relationship implied by the pattern?
+-   How strong is the relationship implied by the pattern?
+-   What other variables might affect the relationship?
+-   Does the relationship change if you look at individual subgroups of the data?
+
+Does vehicle type contribute to a higher incidence of accidents? I believe it does; larger vehicles like trucks and SUVs may be more prone to accidents due to their handling characteristics. Let's begin by focusing on a smaller set of relevant variables that interest me. Additionally, I want to investigate which vehicles are associated with the most accidents in each borough.\
+\
+1.Get Data
+
+```{r , message=FALSE, warning=FALSE}
+vehicletypedf<-nyc_wrecksdf|>
+  select(1,3,24:29)
+```
+
+2.Pivot Long
+
+```{r , message=FALSE, warning=FALSE}
+vtype_long <- vehicletypedf|>
+  pivot_longer(
+    cols = starts_with("VEHICLE TYPE CODE"),  
+    names_to = "vehicle_type_code",           
+    values_to = "vehicle_type"                 
+  )
+# I dont need rows where there is no vehicle type
+
+vtype_long_clean <- vtype_long |>
+  drop_na(vehicle_type)
+# lets see all the diff type of vehicle types in my df
+unique_types<- unique(vtype_long_clean$vehicle_type)
+glimpse(unique_types)
+```
+
+Whoa larger than I expected 202 different vehicle types for 10 most popular in or DF\
+
+```{r, message=FALSE, warning=FALSE}
+vtype_counts <-vtype_long_clean |>
+  count(vehicle_type, name = "count") |>
+  arrange(desc(count))
+
+print(vtype_counts)
+```
+
+One of our expected types is here SUV, although sedan makes perfect sense since it is the
+
+most popular type.\
+\
+For my experiment I am only interested in a automobile so we will exclude bike, bikes, mopeds, and motorcycle. And I need data with Borough so lets filter out any na values from borough\
+*On a side note Rstudio keeps auto correcting my English to Aussie English*\
+
+```{r, message=FALSE, warning=FALSE}
+vtype_long_clean_sel<-vtype_long_clean|>
+  filter(vehicle_type %in% c("Sedan","Station Wagon/Sport Utility Vehicle","Pick-up Truck","Taxi","Box Truck","Bus") & !is.na(BOROUGH))
+myvtype=vtype_long_clean_sel# shorter name is GOOD
+
+# ok im exited lets get counts now
+my_counts <-myvtype |>
+  count(vehicle_type, name = "count") |>
+  arrange(desc(count))
+
+print(my_counts)
+```
+
+```{r vehicle type, fig.height=8, fig.width=12, message=FALSE, warning=FALSE}
+ggplot(my_counts, aes(x = vehicle_type, y = count , fill = vehicle_type)) +
+  geom_col() +
+  geom_text(aes(
+    label = scales::percent(count / sum(count), accuracy = 1)),
+    vjust = -0.5, size = 3) +  
+  labs(title = "Coutnt of Vehicle Types with computed percentage ", x = "Vehicle Type", y = "Count") +
+  theme_minimal() +
+  theme(legend.position = "right",axis.text.x = element_blank())
+
+
+
+```
+
+```{r message=FALSE, warning=FALSE}
+myvtype_asf <- myvtype |> 
+  mutate(
+    vehicle_type = as.factor(vehicle_type),
+    BOROUGH = as.factor(BOROUGH),
+    `CRASH DATE`= as.factor(`CRASH DATE`),
+    vehicle_type_code= as.factor(vehicle_type_code),
+    COLLISION_ID = as.factor(COLLISION_ID)
+    
+  )
+  
+
+```
+
+Lets see if the vehicle types change across boroughs.
+
+```{r Vehicle Type Count per borugh, fig.height=8, fig.width=12, message=FALSE, warning=FALSE}
+
+
+myvtype_asf |>
+  group_by(vehicle_type, BOROUGH) |>
+  summarise(count = n(),c = sum(count)) |>
+  ggplot(aes(x = vehicle_type, y= count,, fill = vehicle_type)) +
+  geom_col() +
+  geom_text(aes(
+    label = count  ),
+    vjust = -0.5, size = 3) + 
+  facet_wrap(ncol = 5,~ BOROUGH, scales = "free_y") +
+  labs(title = "Vehicle Type Counts by Borough",
+       x = "Vehicle Type", y = "Count") +
+    theme_minimal() +
+  theme(legend.position = "right",axis.text.x = element_blank())
+
+
+
+  
+```
+
+**We observe that the distributions of vehicle types across the boroughs are fairly similar. However, in Manhattan, taxis represent a noticeably larger percentage of accident counts compared to other vehicle types.**
